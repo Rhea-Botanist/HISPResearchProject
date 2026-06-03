@@ -1,0 +1,67 @@
+[0.026s] Invoking command in '/home/turbo/Documents/hisp_ws/build/ldlidar_node': AMENT_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_node -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/ldlidar_node
+[0.541s] -- The C compiler identification is GNU 13.3.0
+[0.710s] -- The CXX compiler identification is GNU 13.3.0
+[0.762s] -- Detecting C compiler ABI info
+[1.104s] -- Detecting C compiler ABI info - done
+[1.123s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.124s] -- Detecting C compile features
+[1.130s] -- Detecting C compile features - done
+[1.143s] -- Detecting CXX compiler ABI info
+[1.366s] -- Detecting CXX compiler ABI info - done
+[1.385s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.386s] -- Detecting CXX compile features
+[1.386s] -- Detecting CXX compile features - done
+[1.387s] -- * Found ROS2 jazzy
+[1.388s] -- * ROS2 jazzy is officially supported by this package.
+[1.393s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.616s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.814s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.063s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.252s] -- Found PythonExtra: /usr/bin/python3  
+[2.263s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.273s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.274s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.274s] -- Added test 'lint_cmake' to check CMake code style
+[2.274s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.279s] -- Added test 'xmllint' to check XML markup files
+[2.284s] -- Configuring done (2.2s)
+[2.290s] -- Generating done (0.0s)
+[2.294s] -- Build files have been written to: /home/turbo/Documents/hisp_ws/build/ldlidar_node
+[2.305s] Invoked command in '/home/turbo/Documents/hisp_ws/build/ldlidar_node' returned '0': AMENT_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_node -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/ldlidar_node
+[2.307s] Invoking command in '/home/turbo/Documents/hisp_ws/build/ldlidar_node': AMENT_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/ldlidar_node -- -j4 -l4
+[2.392s] Invoked command in '/home/turbo/Documents/hisp_ws/build/ldlidar_node' returned '0': AMENT_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/ldlidar_node -- -j4 -l4
+[2.395s] Invoking command in '/home/turbo/Documents/hisp_ws/build/ldlidar_node': AMENT_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/ldlidar_node
+[2.411s] -- Install configuration: ""
+[2.411s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/params
+[2.414s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/params/lifecycle_mgr.yaml
+[2.424s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/params/slam_toolbox.yaml
+[2.426s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/params/lifecycle_mgr_slam.yaml
+[2.428s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/params/ldlidar.yaml
+[2.428s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/config
+[2.428s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/config/ldlidar_slam.rviz
+[2.430s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/config/ldlidar.rviz
+[2.430s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/urdf
+[2.430s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/urdf/model
+[2.430s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/urdf/model/LD19.stl
+[2.456s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/urdf/ldlidar_descr.urdf.xml
+[2.456s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/launch
+[2.458s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/launch/ldlidar_slam.launch.py
+[2.461s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/launch/ldlidar_rviz2.launch.py
+[2.461s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/launch/ldlidar_with_mgr.launch.py
+[2.461s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/launch/ldlidar_bringup.launch.py
+[2.461s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ament_index/resource_index/package_run_dependencies/ldlidar_node
+[2.463s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ament_index/resource_index/parent_prefix_path/ldlidar_node
+[2.463s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/environment/ament_prefix_path.sh
+[2.463s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/environment/ament_prefix_path.dsv
+[2.464s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/environment/path.sh
+[2.464s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/environment/path.dsv
+[2.464s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/local_setup.bash
+[2.464s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/local_setup.sh
+[2.464s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/local_setup.zsh
+[2.464s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/local_setup.dsv
+[2.465s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/package.dsv
+[2.465s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ament_index/resource_index/packages/ldlidar_node
+[2.465s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/cmake/ldlidar_nodeConfig.cmake
+[2.465s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/cmake/ldlidar_nodeConfig-version.cmake
+[2.465s] -- Installing: /home/turbo/Documents/hisp_ws/install/ldlidar_node/share/ldlidar_node/package.xml
+[2.469s] Invoked command in '/home/turbo/Documents/hisp_ws/build/ldlidar_node' returned '0': AMENT_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/turbo/Documents/hisp_ws/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/ldlidar_node

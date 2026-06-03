@@ -1,0 +1,4 @@
+Invoking command in '/home/turbo/Documents/hisp_ws/build/sdl2_vendor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/sdl2_vendor -- -j4 -l4
+Invoked command in '/home/turbo/Documents/hisp_ws/build/sdl2_vendor' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/sdl2_vendor -- -j4 -l4
+Invoking command in '/home/turbo/Documents/hisp_ws/build/sdl2_vendor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/sdl2_vendor
+Invoked command in '/home/turbo/Documents/hisp_ws/build/sdl2_vendor' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/sdl2_vendor

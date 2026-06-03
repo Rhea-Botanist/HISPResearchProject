@@ -1,0 +1,6 @@
+/home/turbo/Documents/hisp_ws/install/joy/lib/libjoy.so
+/home/turbo/Documents/hisp_ws/install/joy/lib/libgame_controller.so
+/home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_joyExport.cmake
+/home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_joyExport-release.cmake
+/home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_game_controllerExport.cmake
+/home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_game_controllerExport-release.cmake

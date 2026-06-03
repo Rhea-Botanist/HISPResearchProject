@@ -1,0 +1,7 @@
+[0.041s] Invoking command in '/home/turbo/Documents/hisp_ws/build/spacenav': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/spacenav -- -j4 -l4
+[0.189s] [ 25%] [32mBuilding CXX object CMakeFiles/spacenav_node.dir/rclcpp_components/node_main_spacenav_node.cpp.o[0m
+[0.191s] [ 50%] [32mBuilding CXX object CMakeFiles/spacenav.dir/src/spacenav.cpp.o[0m
+[20.587s] [ 75%] [32m[1mLinking CXX executable spacenav_node[0m
+[21.759s] [ 75%] Built target spacenav_node
+[28.302s] [100%] [32m[1mLinking CXX shared library libspacenav.so[0m
+[28.984s] [100%] Built target spacenav

@@ -1,0 +1,23 @@
+[0.043s] Invoking command in '/home/turbo/Documents/hisp_ws/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/joy_linux -- -j4 -l4
+[0.262s] [100%] Built target joy_linux_node
+[0.411s] Invoked command in '/home/turbo/Documents/hisp_ws/build/joy_linux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/joy_linux -- -j4 -l4
+[0.416s] Invoking command in '/home/turbo/Documents/hisp_ws/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/joy_linux
+[0.459s] -- Install configuration: "Release"
+[0.460s] -- Execute custom install script
+[0.462s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/lib/joy_linux/joy_linux_node
+[0.463s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/ament_index/resource_index/package_run_dependencies/joy_linux
+[0.463s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/ament_index/resource_index/parent_prefix_path/joy_linux
+[0.464s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/environment/ament_prefix_path.sh
+[0.465s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/environment/ament_prefix_path.dsv
+[0.466s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/environment/path.sh
+[0.466s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/environment/path.dsv
+[0.466s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/local_setup.bash
+[0.466s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/local_setup.sh
+[0.467s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/local_setup.zsh
+[0.468s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/local_setup.dsv
+[0.470s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/package.dsv
+[0.470s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/ament_index/resource_index/packages/joy_linux
+[0.470s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig.cmake
+[0.471s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig-version.cmake
+[0.471s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/package.xml
+[0.481s] Invoked command in '/home/turbo/Documents/hisp_ws/build/joy_linux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/joy_linux

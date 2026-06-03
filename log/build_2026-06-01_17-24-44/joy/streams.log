@@ -1,0 +1,76 @@
+[0.030s] Invoking command in '/home/turbo/Documents/hisp_ws/build/joy': CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/joy -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/joy
+[0.091s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.580s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.610s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.663s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.684s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.702s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.736s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.854s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.858s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.978s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.071s] -- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.114s] -- Found sdl2_vendor: 3.3.0 (/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake)
+[1.120s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.237s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.485s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.485s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/turbo/Documents/hisp_ws/src/joystick_drivers/joy/include>
+[1.486s] -- Configured cppcheck exclude dirs and/or files: 
+[1.488s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.488s] -- Configured cpplint exclude dirs and/or files: 
+[1.488s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.489s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.489s] -- Added test 'lint_cmake' to check CMake code style
+[1.490s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.492s] -- Added test 'uncrustify' to check C / C++ code style
+[1.493s] -- Configured uncrustify additional arguments: 
+[1.493s] -- Added test 'xmllint' to check XML markup files
+[1.500s] -- Configuring done (1.4s)
+[1.609s] -- Generating done (0.1s)
+[1.630s] -- Build files have been written to: /home/turbo/Documents/hisp_ws/build/joy
+[1.649s] Invoked command in '/home/turbo/Documents/hisp_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/joy -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/joy
+[1.652s] Invoking command in '/home/turbo/Documents/hisp_ws/build/joy': CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/joy -- -j4 -l4
+[1.781s] [ 20%] Built target joy
+[1.846s] [ 40%] Built target game_controller_node
+[1.898s] [ 60%] Built target joy_enumerate_devices
+[1.967s] [ 80%] Built target game_controller
+[2.031s] [100%] Built target joy_node
+[2.063s] Invoked command in '/home/turbo/Documents/hisp_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/joy -- -j4 -l4
+[2.068s] Invoking command in '/home/turbo/Documents/hisp_ws/build/joy': CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/joy
+[2.088s] -- Install configuration: "Release"
+[2.089s] -- Execute custom install script
+[2.089s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/lib/joy/joy_node
+[2.091s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/lib/joy/game_controller_node
+[2.091s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/lib/joy/joy_enumerate_devices
+[2.095s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/include/joy/joy/game_controller.hpp
+[2.096s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/include/joy/joy/joy.hpp
+[2.099s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/config/joy-params.yaml
+[2.100s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/launch/joy-composed-launch.py
+[2.102s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/launch/joy-launch.py
+[2.102s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+[2.104s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+[2.106s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/environment/ament_prefix_path.sh
+[2.106s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/environment/ament_prefix_path.dsv
+[2.107s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/environment/path.sh
+[2.108s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/environment/path.dsv
+[2.109s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/local_setup.bash
+[2.110s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/local_setup.sh
+[2.111s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/local_setup.zsh
+[2.114s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/local_setup.dsv
+[2.114s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/package.dsv
+[2.139s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/ament_index/resource_index/packages/joy
+[2.143s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/ament_index/resource_index/rclcpp_components/joy
+[2.144s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake
+[2.145s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.146s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/joyConfig.cmake
+[2.148s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/joyConfig-version.cmake
+[2.150s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/package.xml
+[2.154s] -- Installing: /home/turbo/Documents/hisp_ws/install/joy/lib/libjoy.so
+[2.158s] -- Set non-toolchain portion of runtime path of "/home/turbo/Documents/hisp_ws/install/joy/lib/libjoy.so" to ""
+[2.160s] -- Installing: /home/turbo/Documents/hisp_ws/install/joy/lib/libgame_controller.so
+[2.163s] -- Set non-toolchain portion of runtime path of "/home/turbo/Documents/hisp_ws/install/joy/lib/libgame_controller.so" to ""
+[2.166s] -- Up-to-date: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_joyExport.cmake
+[2.166s] -- Installing: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_joyExport-release.cmake
+[2.185s] -- Up-to-date: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_game_controllerExport.cmake
+[2.185s] -- Installing: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_game_controllerExport-release.cmake
+[2.188s] Invoked command in '/home/turbo/Documents/hisp_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/joy

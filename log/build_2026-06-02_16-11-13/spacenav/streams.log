@@ -1,0 +1,33 @@
+[0.096s] Invoking command in '/home/turbo/Documents/hisp_ws/build/spacenav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/spacenav -- -j4 -l4
+[0.295s] [ 50%] Built target spacenav
+[0.306s] [100%] Built target spacenav_node
+[0.351s] Invoked command in '/home/turbo/Documents/hisp_ws/build/spacenav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/spacenav -- -j4 -l4
+[0.354s] Invoking command in '/home/turbo/Documents/hisp_ws/build/spacenav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/spacenav
+[0.398s] -- Install configuration: "Release"
+[0.398s] -- Execute custom install script
+[0.398s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/lib/spacenav/spacenav_node
+[0.398s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/include/spacenav/spacenav/spacenav.hpp
+[0.399s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav//launch/classic-launch.py
+[0.402s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav//launch/no_deadband-launch.py
+[0.402s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav//launch/static_deadband-launch.py
+[0.402s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/ament_index/resource_index/package_run_dependencies/spacenav
+[0.402s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/ament_index/resource_index/parent_prefix_path/spacenav
+[0.403s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/environment/ament_prefix_path.sh
+[0.403s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/environment/ament_prefix_path.dsv
+[0.403s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/environment/path.sh
+[0.403s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/environment/path.dsv
+[0.404s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/local_setup.bash
+[0.404s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/local_setup.sh
+[0.406s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/local_setup.zsh
+[0.406s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/local_setup.dsv
+[0.407s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/package.dsv
+[0.426s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/ament_index/resource_index/packages/spacenav
+[0.426s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/ament_index/resource_index/rclcpp_components/spacenav
+[0.426s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/ament_cmake_export_targets-extras.cmake
+[0.426s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/spacenavConfig.cmake
+[0.426s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/spacenavConfig-version.cmake
+[0.426s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/package.xml
+[0.427s] -- Up-to-date: /home/turbo/Documents/hisp_ws/install/spacenav/lib/libspacenav.so
+[0.427s] -- Up-to-date: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/export_spacenavExport.cmake
+[0.428s] -- Up-to-date: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/export_spacenavExport-release.cmake
+[0.432s] Invoked command in '/home/turbo/Documents/hisp_ws/build/spacenav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/spacenav

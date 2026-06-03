@@ -1,0 +1,1 @@
+Invoking command in '/home/turbo/Documents/hisp_ws/build/wiimote_msgs': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/wiimote_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/wiimote_msgs

@@ -1,0 +1,1 @@
+/home/turbo/Documents/hisp_ws/build/joy/ament_cmake_core/joyConfig.cmake

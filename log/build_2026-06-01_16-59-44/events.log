@@ -1,0 +1,518 @@
+[0.000000] (-) TimerEvent: {}
+[0.000364] (joy_linux) JobQueued: {'identifier': 'joy_linux', 'dependencies': OrderedDict()}
+[0.000854] (sdl2_vendor) JobQueued: {'identifier': 'sdl2_vendor', 'dependencies': OrderedDict()}
+[0.001512] (spacenav) JobQueued: {'identifier': 'spacenav', 'dependencies': OrderedDict()}
+[0.001681] (joy) JobQueued: {'identifier': 'joy', 'dependencies': OrderedDict({'sdl2_vendor': '/home/turbo/Documents/hisp_ws/install/sdl2_vendor'})}
+[0.001723] (sdl2_vendor) JobStarted: {'identifier': 'sdl2_vendor'}
+[0.012111] (joy_linux) JobStarted: {'identifier': 'joy_linux'}
+[0.017445] (spacenav) JobStarted: {'identifier': 'spacenav'}
+[0.030236] (sdl2_vendor) JobProgress: {'identifier': 'sdl2_vendor', 'progress': 'cmake'}
+[0.039177] (sdl2_vendor) JobProgress: {'identifier': 'sdl2_vendor', 'progress': 'build'}
+[0.040193] (sdl2_vendor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turbo/Documents/hisp_ws/build/sdl2_vendor', '--', '-j4', '-l4'], 'cwd': '/home/turbo/Documents/hisp_ws/build/sdl2_vendor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo/Documents', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '77046', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/76857,unix/turbo:/tmp/.ICE-unix/76857', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48767f8b_7dba_4888_8125_04994e3a8079', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7M64P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/sdl2_vendor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[0.046296] (joy_linux) JobProgress: {'identifier': 'joy_linux', 'progress': 'cmake'}
+[0.049747] (joy_linux) Command: {'cmd': ['/usr/bin/cmake', '/home/turbo/Documents/hisp_ws/src/joystick_drivers/joy_linux', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/joy_linux'], 'cwd': '/home/turbo/Documents/hisp_ws/build/joy_linux', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo/Documents', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '77046', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/76857,unix/turbo:/tmp/.ICE-unix/76857', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48767f8b_7dba_4888_8125_04994e3a8079', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7M64P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/joy_linux', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[0.061933] (spacenav) JobProgress: {'identifier': 'spacenav', 'progress': 'cmake'}
+[0.066648] (spacenav) JobProgress: {'identifier': 'spacenav', 'progress': 'build'}
+[0.066764] (spacenav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turbo/Documents/hisp_ws/build/spacenav', '--', '-j4', '-l4'], 'cwd': '/home/turbo/Documents/hisp_ws/build/spacenav', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo/Documents', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '77046', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/76857,unix/turbo:/tmp/.ICE-unix/76857', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48767f8b_7dba_4888_8125_04994e3a8079', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7M64P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/spacenav', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[0.080527] (joy_linux) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.095067] (sdl2_vendor) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099910] (-) TimerEvent: {}
+[0.138748] (spacenav) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.200187] (-) TimerEvent: {}
+[0.304448] (-) TimerEvent: {}
+[0.406909] (-) TimerEvent: {}
+[0.501015] (sdl2_vendor) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.501318] (joy_linux) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.507005] (-) TimerEvent: {}
+[0.543295] (spacenav) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.607143] (-) TimerEvent: {}
+[0.635969] (spacenav) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.636416] (joy_linux) StdoutLine: {'line': b'-- Found diagnostic_msgs: 5.3.7 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)\n'}
+[0.707263] (-) TimerEvent: {}
+[0.788069] (joy_linux) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.788394] (spacenav) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.807356] (-) TimerEvent: {}
+[0.810281] (spacenav) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.811149] (joy_linux) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.858877] (spacenav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.859364] (joy_linux) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.878102] (sdl2_vendor) StdoutLine: {'line': b'-- Configuring done (0.8s)\n'}
+[0.893222] (sdl2_vendor) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.898935] (sdl2_vendor) StdoutLine: {'line': b'-- Build files have been written to: /home/turbo/Documents/hisp_ws/build/sdl2_vendor\n'}
+[0.907478] (-) TimerEvent: {}
+[0.919110] (joy_linux) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.919425] (spacenav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.941717] (sdl2_vendor) CommandEnded: {'returncode': 0}
+[0.942642] (sdl2_vendor) JobProgress: {'identifier': 'sdl2_vendor', 'progress': 'install'}
+[0.961154] (sdl2_vendor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/turbo/Documents/hisp_ws/build/sdl2_vendor'], 'cwd': '/home/turbo/Documents/hisp_ws/build/sdl2_vendor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo/Documents', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '77046', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/76857,unix/turbo:/tmp/.ICE-unix/76857', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48767f8b_7dba_4888_8125_04994e3a8079', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7M64P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/sdl2_vendor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[0.977028] (sdl2_vendor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.977781] (sdl2_vendor) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.978493] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/Modules/Findsdl2_custom.cmake\n'}
+[0.979117] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/ament_index/resource_index/package_run_dependencies/sdl2_vendor\n'}
+[0.979332] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/ament_index/resource_index/parent_prefix_path/sdl2_vendor\n'}
+[0.979874] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.sh\n'}
+[0.980129] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.dsv\n'}
+[0.980539] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/path.sh\n'}
+[0.981134] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/path.dsv\n'}
+[0.981840] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.bash\n'}
+[0.981985] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.sh\n'}
+[0.982084] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.zsh\n'}
+[0.982187] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.dsv\n'}
+[0.982295] (sdl2_vendor) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.dsv\n'}
+[1.002620] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/ament_index/resource_index/packages/sdl2_vendor\n'}
+[1.003048] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendor-extras.cmake\n'}
+[1.003779] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig.cmake\n'}
+[1.004084] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig-version.cmake\n'}
+[1.004547] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.xml\n'}
+[1.007715] (-) TimerEvent: {}
+[1.010713] (sdl2_vendor) CommandEnded: {'returncode': 0}
+[1.045873] (sdl2_vendor) JobEnded: {'identifier': 'sdl2_vendor', 'rc': 0}
+[1.047457] (joy) JobStarted: {'identifier': 'joy'}
+[1.058048] (joy) JobProgress: {'identifier': 'joy', 'progress': 'cmake'}
+[1.060281] (joy) Command: {'cmd': ['/usr/bin/cmake', '/home/turbo/Documents/hisp_ws/src/joystick_drivers/joy', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/joy'], 'cwd': '/home/turbo/Documents/hisp_ws/build/joy', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo/Documents', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '77046', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/76857,unix/turbo:/tmp/.ICE-unix/76857', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48767f8b_7dba_4888_8125_04994e3a8079', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7M64P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/joy', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[1.066497] (spacenav) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.088345] (joy) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.107818] (-) TimerEvent: {}
+[1.198282] (joy_linux) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.2.6 (/opt/ros/jazzy/share/diagnostic_updater/cmake)\n'}
+[1.207941] (-) TimerEvent: {}
+[1.308464] (-) TimerEvent: {}
+[1.323787] (joy_linux) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.324114] (spacenav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.337683] (spacenav) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.338034] (joy_linux) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.408603] (-) TimerEvent: {}
+[1.439614] (joy) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.475513] (joy) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.487862] (joy_linux) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.488343] (spacenav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.508700] (-) TimerEvent: {}
+[1.511474] (joy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.526135] (joy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.543751] (joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.564194] (joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.608132] (spacenav) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[1.608773] (-) TimerEvent: {}
+[1.614286] (joy_linux) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.650591] (joy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.652919] (joy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.670124] (spacenav) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.680555] (joy_linux) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.710712] (-) TimerEvent: {}
+[1.711800] (spacenav) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.754660] (joy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.810823] (-) TimerEvent: {}
+[1.861836] (joy) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[1.908648] (joy) StdoutLine: {'line': b'-- Found sdl2_vendor: 3.3.0 (/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake)\n'}
+[1.911085] (-) TimerEvent: {}
+[1.916092] (joy) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.927515] (joy_linux) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.927849] (joy_linux) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/turbo/Documents/hisp_ws/src/joystick_drivers/joy_linux/msg/cpp\n'}
+[1.927993] (joy_linux) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.928946] (joy_linux) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.929203] (joy_linux) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.931032] (joy_linux) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.933824] (joy_linux) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.934119] (joy_linux) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.934551] (joy_linux) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.943311] (spacenav) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.943796] (joy_linux) StdoutLine: {'line': b'-- Configuring done (1.9s)\n'}
+[1.944912] (spacenav) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/turbo/Documents/hisp_ws/src/joystick_drivers/spacenav/include>\n'}
+[1.945204] (spacenav) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.946691] (spacenav) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.946961] (spacenav) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.947360] (spacenav) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.947527] (spacenav) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.948118] (spacenav) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.948736] (spacenav) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.950341] (spacenav) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.950621] (spacenav) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.951062] (spacenav) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.959387] (spacenav) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[1.983676] (joy_linux) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.995917] (joy_linux) StdoutLine: {'line': b'-- Build files have been written to: /home/turbo/Documents/hisp_ws/build/joy_linux\n'}
+[2.011278] (-) TimerEvent: {}
+[2.021544] (joy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.024111] (joy_linux) CommandEnded: {'returncode': 0}
+[2.024948] (joy_linux) JobProgress: {'identifier': 'joy_linux', 'progress': 'build'}
+[2.025126] (joy_linux) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turbo/Documents/hisp_ws/build/joy_linux', '--', '-j4', '-l4'], 'cwd': '/home/turbo/Documents/hisp_ws/build/joy_linux', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo/Documents', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '77046', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/76857,unix/turbo:/tmp/.ICE-unix/76857', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48767f8b_7dba_4888_8125_04994e3a8079', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7M64P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/joy_linux', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[2.029523] (spacenav) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.047543] (spacenav) StdoutLine: {'line': b'-- Build files have been written to: /home/turbo/Documents/hisp_ws/build/spacenav\n'}
+[2.112341] (-) TimerEvent: {}
+[2.175824] (joy_linux) StdoutLine: {'line': b'[100%] Built target joy_linux_node\n'}
+[2.211418] (joy_linux) CommandEnded: {'returncode': 0}
+[2.216063] (joy_linux) JobProgress: {'identifier': 'joy_linux', 'progress': 'install'}
+[2.216201] (-) TimerEvent: {}
+[2.217019] (joy_linux) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/turbo/Documents/hisp_ws/build/joy_linux'], 'cwd': '/home/turbo/Documents/hisp_ws/build/joy_linux', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo/Documents', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '77046', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/76857,unix/turbo:/tmp/.ICE-unix/76857', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48767f8b_7dba_4888_8125_04994e3a8079', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7M64P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/joy_linux', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[2.221064] (spacenav) StdoutLine: {'line': b'[ 50%] Built target spacenav\n'}
+[2.233659] (spacenav) StdoutLine: {'line': b'[100%] Built target spacenav_node\n'}
+[2.250757] (joy_linux) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.251039] (joy_linux) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.252372] (joy_linux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/lib/joy_linux/joy_linux_node\n'}
+[2.252757] (joy_linux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/ament_index/resource_index/package_run_dependencies/joy_linux\n'}
+[2.257038] (joy_linux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/ament_index/resource_index/parent_prefix_path/joy_linux\n'}
+[2.257375] (joy_linux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/environment/ament_prefix_path.sh\n'}
+[2.258115] (joy_linux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/environment/ament_prefix_path.dsv\n'}
+[2.258447] (joy_linux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/environment/path.sh\n'}
+[2.258704] (joy_linux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/environment/path.dsv\n'}
+[2.259321] (joy_linux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/local_setup.bash\n'}
+[2.259561] (joy_linux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/local_setup.sh\n'}
+[2.259836] (joy_linux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/local_setup.zsh\n'}
+[2.260472] (joy_linux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/local_setup.dsv\n'}
+[2.260733] (joy_linux) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/package.dsv\n'}
+[2.264222] (spacenav) CommandEnded: {'returncode': 0}
+[2.264872] (spacenav) JobProgress: {'identifier': 'spacenav', 'progress': 'install'}
+[2.264926] (spacenav) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/turbo/Documents/hisp_ws/build/spacenav'], 'cwd': '/home/turbo/Documents/hisp_ws/build/spacenav', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo/Documents', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '77046', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/76857,unix/turbo:/tmp/.ICE-unix/76857', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48767f8b_7dba_4888_8125_04994e3a8079', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7M64P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/spacenav', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[2.283981] (spacenav) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.284301] (spacenav) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.284466] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/lib/spacenav/spacenav_node\n'}
+[2.286117] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/include/spacenav/spacenav/spacenav.hpp\n'}
+[2.286478] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav//launch/classic-launch.py\n'}
+[2.287623] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav//launch/no_deadband-launch.py\n'}
+[2.287910] (joy_linux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/ament_index/resource_index/packages/joy_linux\n'}
+[2.288656] (joy_linux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig.cmake\n'}
+[2.289437] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav//launch/static_deadband-launch.py\n'}
+[2.289629] (joy_linux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig-version.cmake\n'}
+[2.289776] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/ament_index/resource_index/package_run_dependencies/spacenav\n'}
+[2.290000] (joy_linux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/package.xml\n'}
+[2.290136] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/ament_index/resource_index/parent_prefix_path/spacenav\n'}
+[2.290268] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/environment/ament_prefix_path.sh\n'}
+[2.292152] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/environment/ament_prefix_path.dsv\n'}
+[2.293522] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/environment/path.sh\n'}
+[2.295124] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/environment/path.dsv\n'}
+[2.295278] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/local_setup.bash\n'}
+[2.295376] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/local_setup.sh\n'}
+[2.295466] (joy_linux) CommandEnded: {'returncode': 0}
+[2.295847] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/local_setup.zsh\n'}
+[2.296009] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/local_setup.dsv\n'}
+[2.296117] (spacenav) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/package.dsv\n'}
+[2.296395] (joy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.298857] (joy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/turbo/Documents/hisp_ws/src/joystick_drivers/joy/include>\n'}
+[2.299249] (joy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.299438] (joy) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.299568] (joy) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.300342] (joy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.300599] (joy) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.301166] (joy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.302596] (joy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.305062] (joy) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.305393] (joy) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.305732] (joy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.314105] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/ament_index/resource_index/packages/spacenav\n'}
+[2.314510] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/ament_index/resource_index/rclcpp_components/spacenav\n'}
+[2.314747] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.315089] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/spacenavConfig.cmake\n'}
+[2.315407] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/spacenavConfig-version.cmake\n'}
+[2.316179] (spacenav) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/package.xml\n'}
+[2.316774] (-) TimerEvent: {}
+[2.316951] (spacenav) StdoutLine: {'line': b'-- Up-to-date: /home/turbo/Documents/hisp_ws/install/spacenav/lib/libspacenav.so\n'}
+[2.317122] (spacenav) StdoutLine: {'line': b'-- Up-to-date: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/export_spacenavExport.cmake\n'}
+[2.317283] (spacenav) StdoutLine: {'line': b'-- Up-to-date: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/export_spacenavExport-noconfig.cmake\n'}
+[2.331708] (joy_linux) JobEnded: {'identifier': 'joy_linux', 'rc': 0}
+[2.333431] (spacenav) CommandEnded: {'returncode': 0}
+[2.336091] (joy) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[2.416982] (-) TimerEvent: {}
+[2.419024] (spacenav) JobEnded: {'identifier': 'spacenav', 'rc': 0}
+[2.517109] (-) TimerEvent: {}
+[2.617442] (-) TimerEvent: {}
+[2.665319] (joy) StdoutLine: {'line': b'-- Generating done (0.3s)\n'}
+[2.711403] (joy) StdoutLine: {'line': b'-- Build files have been written to: /home/turbo/Documents/hisp_ws/build/joy\n'}
+[2.717598] (-) TimerEvent: {}
+[2.735129] (joy) CommandEnded: {'returncode': 0}
+[2.737275] (joy) JobProgress: {'identifier': 'joy', 'progress': 'build'}
+[2.737349] (joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turbo/Documents/hisp_ws/build/joy', '--', '-j4', '-l4'], 'cwd': '/home/turbo/Documents/hisp_ws/build/joy', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo/Documents', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '77046', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/76857,unix/turbo:/tmp/.ICE-unix/76857', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48767f8b_7dba_4888_8125_04994e3a8079', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7M64P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/joy', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[2.818690] (-) TimerEvent: {}
+[2.847454] (joy) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/game_controller.dir/src/game_controller.cpp.o\x1b[0m\n'}
+[2.851858] (joy) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/joy.dir/src/joy.cpp.o\x1b[0m\n'}
+[2.857412] (joy) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o\x1b[0m\n'}
+[2.858572] (joy) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/joy_node.dir/rclcpp_components/node_main_joy_node.cpp.o\x1b[0m\n'}
+[2.918805] (-) TimerEvent: {}
+[3.019170] (-) TimerEvent: {}
+[3.119596] (-) TimerEvent: {}
+[3.219986] (-) TimerEvent: {}
+[3.322658] (-) TimerEvent: {}
+[3.424715] (-) TimerEvent: {}
+[3.525097] (-) TimerEvent: {}
+[3.625454] (-) TimerEvent: {}
+[3.727279] (-) TimerEvent: {}
+[3.827753] (-) TimerEvent: {}
+[3.928481] (-) TimerEvent: {}
+[4.029176] (-) TimerEvent: {}
+[4.132948] (-) TimerEvent: {}
+[4.233479] (-) TimerEvent: {}
+[4.334070] (-) TimerEvent: {}
+[4.434569] (-) TimerEvent: {}
+[4.535090] (-) TimerEvent: {}
+[4.635559] (-) TimerEvent: {}
+[4.738692] (-) TimerEvent: {}
+[4.839182] (-) TimerEvent: {}
+[4.939694] (-) TimerEvent: {}
+[5.040189] (-) TimerEvent: {}
+[5.140668] (-) TimerEvent: {}
+[5.241110] (-) TimerEvent: {}
+[5.366336] (-) TimerEvent: {}
+[5.466815] (-) TimerEvent: {}
+[5.567260] (-) TimerEvent: {}
+[5.695698] (-) TimerEvent: {}
+[5.801731] (-) TimerEvent: {}
+[5.909692] (-) TimerEvent: {}
+[6.010197] (-) TimerEvent: {}
+[6.110679] (-) TimerEvent: {}
+[6.211146] (-) TimerEvent: {}
+[6.311683] (-) TimerEvent: {}
+[6.412116] (-) TimerEvent: {}
+[6.514937] (-) TimerEvent: {}
+[6.615416] (-) TimerEvent: {}
+[6.715892] (-) TimerEvent: {}
+[6.816349] (-) TimerEvent: {}
+[6.916807] (-) TimerEvent: {}
+[7.019904] (-) TimerEvent: {}
+[7.120370] (-) TimerEvent: {}
+[7.220844] (-) TimerEvent: {}
+[7.323684] (-) TimerEvent: {}
+[7.424173] (-) TimerEvent: {}
+[7.526895] (-) TimerEvent: {}
+[7.627398] (-) TimerEvent: {}
+[7.727908] (-) TimerEvent: {}
+[7.829939] (-) TimerEvent: {}
+[7.930605] (-) TimerEvent: {}
+[8.031914] (-) TimerEvent: {}
+[8.132355] (-) TimerEvent: {}
+[8.233713] (-) TimerEvent: {}
+[8.337833] (-) TimerEvent: {}
+[8.438301] (-) TimerEvent: {}
+[8.538813] (-) TimerEvent: {}
+[8.641833] (-) TimerEvent: {}
+[8.744609] (-) TimerEvent: {}
+[8.845021] (-) TimerEvent: {}
+[8.945407] (-) TimerEvent: {}
+[9.045798] (-) TimerEvent: {}
+[9.146194] (-) TimerEvent: {}
+[9.246595] (-) TimerEvent: {}
+[9.347001] (-) TimerEvent: {}
+[9.447368] (-) TimerEvent: {}
+[9.547766] (-) TimerEvent: {}
+[9.648144] (-) TimerEvent: {}
+[9.748733] (-) TimerEvent: {}
+[9.849693] (-) TimerEvent: {}
+[9.953680] (-) TimerEvent: {}
+[10.055704] (-) TimerEvent: {}
+[10.156329] (-) TimerEvent: {}
+[10.256927] (-) TimerEvent: {}
+[10.357524] (-) TimerEvent: {}
+[10.458945] (-) TimerEvent: {}
+[10.561894] (-) TimerEvent: {}
+[10.662517] (-) TimerEvent: {}
+[10.763158] (-) TimerEvent: {}
+[10.863787] (-) TimerEvent: {}
+[10.968928] (-) TimerEvent: {}
+[11.069381] (-) TimerEvent: {}
+[11.169847] (-) TimerEvent: {}
+[11.270237] (-) TimerEvent: {}
+[11.370704] (-) TimerEvent: {}
+[11.473686] (-) TimerEvent: {}
+[11.574122] (-) TimerEvent: {}
+[11.674547] (-) TimerEvent: {}
+[11.774933] (-) TimerEvent: {}
+[11.877799] (-) TimerEvent: {}
+[11.978278] (-) TimerEvent: {}
+[12.083677] (-) TimerEvent: {}
+[12.184256] (-) TimerEvent: {}
+[12.284849] (-) TimerEvent: {}
+[12.385418] (-) TimerEvent: {}
+[12.485878] (-) TimerEvent: {}
+[12.586436] (-) TimerEvent: {}
+[12.689745] (-) TimerEvent: {}
+[12.790604] (-) TimerEvent: {}
+[12.891176] (-) TimerEvent: {}
+[12.991819] (-) TimerEvent: {}
+[13.092497] (-) TimerEvent: {}
+[13.195482] (-) TimerEvent: {}
+[13.296109] (-) TimerEvent: {}
+[13.402680] (-) TimerEvent: {}
+[13.503272] (-) TimerEvent: {}
+[13.603854] (-) TimerEvent: {}
+[13.704454] (-) TimerEvent: {}
+[13.810317] (-) TimerEvent: {}
+[13.913666] (-) TimerEvent: {}
+[14.014350] (-) TimerEvent: {}
+[14.139674] (-) TimerEvent: {}
+[14.243040] (-) TimerEvent: {}
+[14.343686] (-) TimerEvent: {}
+[14.444098] (-) TimerEvent: {}
+[14.544473] (-) TimerEvent: {}
+[14.644879] (-) TimerEvent: {}
+[14.745290] (-) TimerEvent: {}
+[14.845677] (-) TimerEvent: {}
+[14.946061] (-) TimerEvent: {}
+[15.047894] (-) TimerEvent: {}
+[15.148324] (-) TimerEvent: {}
+[15.245820] (joy) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable joy_node\x1b[0m\n'}
+[15.249326] (-) TimerEvent: {}
+[15.249572] (joy) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable game_controller_node\x1b[0m\n'}
+[15.349567] (-) TimerEvent: {}
+[15.450029] (-) TimerEvent: {}
+[15.550494] (-) TimerEvent: {}
+[15.652705] (-) TimerEvent: {}
+[15.753248] (-) TimerEvent: {}
+[15.853690] (-) TimerEvent: {}
+[15.890768] (joy) StdoutLine: {'line': b'[ 60%] Built target game_controller_node\n'}
+[15.897254] (joy) StdoutLine: {'line': b'[ 60%] Built target joy_node\n'}
+[15.956718] (-) TimerEvent: {}
+[15.966952] (joy) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/joy_enumerate_devices.dir/src/joy_enumerate_devices.cpp.o\x1b[0m\n'}
+[16.056862] (-) TimerEvent: {}
+[16.160709] (-) TimerEvent: {}
+[16.261186] (-) TimerEvent: {}
+[16.361603] (-) TimerEvent: {}
+[16.466817] (-) TimerEvent: {}
+[16.567217] (-) TimerEvent: {}
+[16.667668] (-) TimerEvent: {}
+[16.768070] (-) TimerEvent: {}
+[16.868497] (-) TimerEvent: {}
+[16.968969] (-) TimerEvent: {}
+[16.976307] (joy) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable joy_enumerate_devices\x1b[0m\n'}
+[17.069089] (-) TimerEvent: {}
+[17.172400] (-) TimerEvent: {}
+[17.233134] (joy) StdoutLine: {'line': b'[ 80%] Built target joy_enumerate_devices\n'}
+[17.272519] (-) TimerEvent: {}
+[17.375264] (-) TimerEvent: {}
+[17.475662] (-) TimerEvent: {}
+[17.576052] (-) TimerEvent: {}
+[17.676467] (-) TimerEvent: {}
+[17.776889] (-) TimerEvent: {}
+[17.877297] (-) TimerEvent: {}
+[17.977688] (-) TimerEvent: {}
+[18.078128] (-) TimerEvent: {}
+[18.178654] (-) TimerEvent: {}
+[18.279061] (-) TimerEvent: {}
+[18.379457] (-) TimerEvent: {}
+[18.479861] (-) TimerEvent: {}
+[18.580245] (-) TimerEvent: {}
+[18.680644] (-) TimerEvent: {}
+[18.781018] (-) TimerEvent: {}
+[18.881399] (-) TimerEvent: {}
+[18.981791] (-) TimerEvent: {}
+[19.082160] (-) TimerEvent: {}
+[19.182529] (-) TimerEvent: {}
+[19.282921] (-) TimerEvent: {}
+[19.383312] (-) TimerEvent: {}
+[19.483676] (-) TimerEvent: {}
+[19.584045] (-) TimerEvent: {}
+[19.684410] (-) TimerEvent: {}
+[19.784801] (-) TimerEvent: {}
+[19.885192] (-) TimerEvent: {}
+[19.985565] (-) TimerEvent: {}
+[20.085948] (-) TimerEvent: {}
+[20.186297] (-) TimerEvent: {}
+[20.286641] (-) TimerEvent: {}
+[20.386989] (-) TimerEvent: {}
+[20.487332] (-) TimerEvent: {}
+[20.587682] (-) TimerEvent: {}
+[20.688057] (-) TimerEvent: {}
+[20.788413] (-) TimerEvent: {}
+[20.888823] (-) TimerEvent: {}
+[20.989193] (-) TimerEvent: {}
+[21.089536] (-) TimerEvent: {}
+[21.189891] (-) TimerEvent: {}
+[21.290226] (-) TimerEvent: {}
+[21.390558] (-) TimerEvent: {}
+[21.490912] (-) TimerEvent: {}
+[21.591276] (-) TimerEvent: {}
+[21.691645] (-) TimerEvent: {}
+[21.792017] (-) TimerEvent: {}
+[21.892403] (-) TimerEvent: {}
+[21.992796] (-) TimerEvent: {}
+[22.093158] (-) TimerEvent: {}
+[22.193497] (-) TimerEvent: {}
+[22.293840] (-) TimerEvent: {}
+[22.394146] (-) TimerEvent: {}
+[22.692544] (-) TimerEvent: {}
+[22.792938] (-) TimerEvent: {}
+[22.893317] (-) TimerEvent: {}
+[22.993699] (-) TimerEvent: {}
+[23.094080] (-) TimerEvent: {}
+[23.194486] (-) TimerEvent: {}
+[23.294915] (-) TimerEvent: {}
+[23.395326] (-) TimerEvent: {}
+[23.495737] (-) TimerEvent: {}
+[23.596135] (-) TimerEvent: {}
+[23.696547] (-) TimerEvent: {}
+[23.796970] (-) TimerEvent: {}
+[23.897396] (-) TimerEvent: {}
+[23.997953] (-) TimerEvent: {}
+[24.098365] (-) TimerEvent: {}
+[24.198786] (-) TimerEvent: {}
+[24.299197] (-) TimerEvent: {}
+[24.399655] (-) TimerEvent: {}
+[24.500044] (-) TimerEvent: {}
+[24.600555] (-) TimerEvent: {}
+[24.701248] (-) TimerEvent: {}
+[24.801714] (-) TimerEvent: {}
+[24.902167] (-) TimerEvent: {}
+[25.002506] (-) TimerEvent: {}
+[25.013275] (joy) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libjoy.so\x1b[0m\n'}
+[25.014503] (joy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgame_controller.so\x1b[0m\n'}
+[25.102649] (-) TimerEvent: {}
+[25.203296] (-) TimerEvent: {}
+[25.304552] (-) TimerEvent: {}
+[25.405133] (-) TimerEvent: {}
+[25.505944] (-) TimerEvent: {}
+[25.607027] (-) TimerEvent: {}
+[25.707783] (-) TimerEvent: {}
+[25.808892] (-) TimerEvent: {}
+[25.909477] (-) TimerEvent: {}
+[26.010312] (-) TimerEvent: {}
+[26.111127] (-) TimerEvent: {}
+[26.190228] (joy) StdoutLine: {'line': b'[100%] Built target game_controller\n'}
+[26.211207] (-) TimerEvent: {}
+[26.311545] (-) TimerEvent: {}
+[26.411965] (-) TimerEvent: {}
+[26.681337] (joy) StdoutLine: {'line': b'[100%] Built target joy\n'}
+[26.737670] (-) TimerEvent: {}
+[26.784344] (joy) CommandEnded: {'returncode': 0}
+[26.789143] (joy) JobProgress: {'identifier': 'joy', 'progress': 'install'}
+[26.795940] (joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/turbo/Documents/hisp_ws/build/joy'], 'cwd': '/home/turbo/Documents/hisp_ws/build/joy', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo/Documents', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '77046', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/76857,unix/turbo:/tmp/.ICE-unix/76857', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48767f8b_7dba_4888_8125_04994e3a8079', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7M64P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/joy', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[26.837789] (-) TimerEvent: {}
+[26.854390] (joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.867608] (joy) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[26.876893] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/lib/joy/joy_node\n'}
+[26.897238] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/lib/joy/game_controller_node\n'}
+[26.914592] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/lib/joy/joy_enumerate_devices\n'}
+[26.934750] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/include/joy/joy/game_controller.hpp\n'}
+[26.937892] (-) TimerEvent: {}
+[26.953409] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/include/joy/joy/joy.hpp\n'}
+[26.975112] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/config/joy-params.yaml\n'}
+[26.992710] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/launch/joy-composed-launch.py\n'}
+[27.009228] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/launch/joy-launch.py\n'}
+[27.026074] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/ament_index/resource_index/package_run_dependencies/joy\n'}
+[27.038024] (-) TimerEvent: {}
+[27.044622] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/ament_index/resource_index/parent_prefix_path/joy\n'}
+[27.062726] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/environment/ament_prefix_path.sh\n'}
+[27.080283] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/environment/ament_prefix_path.dsv\n'}
+[27.097298] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/environment/path.sh\n'}
+[27.113834] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/environment/path.dsv\n'}
+[27.130161] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/local_setup.bash\n'}
+[27.138113] (-) TimerEvent: {}
+[27.150672] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/local_setup.sh\n'}
+[27.168072] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/local_setup.zsh\n'}
+[27.184331] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/local_setup.dsv\n'}
+[27.200456] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/package.dsv\n'}
+[27.217007] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/ament_index/resource_index/packages/joy\n'}
+[27.233424] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/ament_index/resource_index/rclcpp_components/joy\n'}
+[27.238220] (-) TimerEvent: {}
+[27.252271] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[27.268453] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.284684] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/joyConfig.cmake\n'}
+[27.301101] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/joyConfig-version.cmake\n'}
+[27.317702] (joy) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/package.xml\n'}
+[27.335670] (joy) StdoutLine: {'line': b'-- Installing: /home/turbo/Documents/hisp_ws/install/joy/lib/libjoy.so\n'}
+[27.338338] (-) TimerEvent: {}
+[27.353420] (joy) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/turbo/Documents/hisp_ws/install/joy/lib/libjoy.so" to ""\n'}
+[27.353812] (joy) StdoutLine: {'line': b'-- Installing: /home/turbo/Documents/hisp_ws/install/joy/lib/libgame_controller.so\n'}
+[27.368174] (joy) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/turbo/Documents/hisp_ws/install/joy/lib/libgame_controller.so" to ""\n'}
+[27.368459] (joy) StdoutLine: {'line': b'-- Installing: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_joyExport.cmake\n'}
+[27.369196] (joy) StdoutLine: {'line': b'-- Installing: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_joyExport-noconfig.cmake\n'}
+[27.369769] (joy) StdoutLine: {'line': b'-- Installing: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_game_controllerExport.cmake\n'}
+[27.370435] (joy) StdoutLine: {'line': b'-- Installing: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_game_controllerExport-noconfig.cmake\n'}
+[27.374220] (joy) CommandEnded: {'returncode': 0}
+[27.407029] (joy) JobEnded: {'identifier': 'joy', 'rc': 0}
+[27.409595] (-) EventReactorShutdown: {}

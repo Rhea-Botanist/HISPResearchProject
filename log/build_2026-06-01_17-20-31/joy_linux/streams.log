@@ -1,0 +1,2 @@
+[0.052s] Invoking command in '/home/turbo/Documents/hisp_ws/build/joy_linux': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/joy_linux -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/joy_linux
+[0.231s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)

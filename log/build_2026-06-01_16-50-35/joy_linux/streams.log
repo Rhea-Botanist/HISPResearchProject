@@ -1,0 +1,19 @@
+[0.048s] Invoking command in '/home/turbo/Documents/hisp_ws/build/joy_linux': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/joy_linux -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/joy_linux
+[0.338s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[51.137s] Traceback (most recent call last):
+[51.140s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[51.141s]     from ament_package.templates import get_environment_hook_template_path
+[51.141s] ModuleNotFoundError: No module named 'ament_package'
+[51.406s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[51.406s]   execute_process(/usr/bin/python3
+[51.406s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[51.406s]   /home/turbo/Documents/hisp_ws/build/joy_linux/ament_cmake_package_templates/templates.cmake)
+[51.407s]   returned error code 1
+[51.407s] Call Stack (most recent call first):
+[51.407s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[51.409s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[51.409s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[51.409s]   CMakeLists.txt:13 (find_package)
+[51.410s] 
+[51.410s] [0m
+[51.410s] -- Configuring incomplete, errors occurred!

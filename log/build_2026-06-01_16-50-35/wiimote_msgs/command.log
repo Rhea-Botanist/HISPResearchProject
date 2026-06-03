@@ -1,0 +1,2 @@
+Invoking command in '/home/turbo/Documents/hisp_ws/build/wiimote_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/wiimote_msgs -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/wiimote_msgs
+Invoked command in '/home/turbo/Documents/hisp_ws/build/wiimote_msgs' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/wiimote_msgs -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/wiimote_msgs
