@@ -1,0 +1,23 @@
+[0.024s] Invoking command in '/home/turbo/Documents/hisp_ws/build/joy_linux': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/joy_linux -- -j4 -l4
+[0.200s] [100%] Built target joy_linux_node
+[0.220s] Invoked command in '/home/turbo/Documents/hisp_ws/build/joy_linux' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/joy_linux -- -j4 -l4
+[0.240s] Invoking command in '/home/turbo/Documents/hisp_ws/build/joy_linux': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/joy_linux
+[0.257s] -- Install configuration: ""
+[0.264s] -- Execute custom install script
+[0.267s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/lib/joy_linux/joy_linux_node
+[0.288s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/ament_index/resource_index/package_run_dependencies/joy_linux
+[0.312s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/ament_index/resource_index/parent_prefix_path/joy_linux
+[0.329s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/environment/ament_prefix_path.sh
+[0.349s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/environment/ament_prefix_path.dsv
+[0.377s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/environment/path.sh
+[0.400s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/environment/path.dsv
+[0.418s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/local_setup.bash
+[0.435s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/local_setup.sh
+[0.453s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/local_setup.zsh
+[0.471s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/local_setup.dsv
+[0.497s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/package.dsv
+[0.520s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/ament_index/resource_index/packages/joy_linux
+[0.553s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig.cmake
+[0.570s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig-version.cmake
+[0.596s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy_linux/share/joy_linux/package.xml
+[0.624s] Invoked command in '/home/turbo/Documents/hisp_ws/build/joy_linux' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/joy_linux

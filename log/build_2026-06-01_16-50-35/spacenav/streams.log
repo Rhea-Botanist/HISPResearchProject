@@ -1,0 +1,34 @@
+[0.055s] Invoking command in '/home/turbo/Documents/hisp_ws/build/spacenav': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/spacenav -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/spacenav
+[0.331s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[51.148s] Traceback (most recent call last):
+[51.148s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[51.149s]     from ament_package.templates import get_environment_hook_template_path
+[51.149s] ModuleNotFoundError: No module named 'ament_package'
+[51.149s] Error in sys.excepthook:
+[51.149s] Traceback (most recent call last):
+[51.149s]   File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+[51.149s]     return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+[51.149s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[51.150s]   File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+[51.150s]     os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+[51.151s]     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[51.151s] FileExistsError: [Errno 17] File exists: '/var/crash/_opt_ros_jazzy_share_ament_cmake_core_cmake_package_templates_templates_2_cmake.py.1000.crash'
+[51.151s] 
+[51.151s] Original exception was:
+[51.152s] Traceback (most recent call last):
+[51.152s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[51.152s]     from ament_package.templates import get_environment_hook_template_path
+[51.153s] ModuleNotFoundError: No module named 'ament_package'
+[51.323s] -- Configuring incomplete, errors occurred!
+[51.323s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[51.324s]   execute_process(/usr/bin/python3
+[51.324s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[51.325s]   /home/turbo/Documents/hisp_ws/build/spacenav/ament_cmake_package_templates/templates.cmake)
+[51.325s]   returned error code 1
+[51.335s] Call Stack (most recent call first):
+[51.336s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[51.336s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[51.336s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[51.336s]   CMakeLists.txt:15 (find_package)
+[51.336s] 
+[51.336s] [0m

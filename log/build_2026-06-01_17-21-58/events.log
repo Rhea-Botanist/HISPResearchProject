@@ -1,0 +1,791 @@
+[0.000000] (-) TimerEvent: {}
+[0.000358] (joy_linux) JobQueued: {'identifier': 'joy_linux', 'dependencies': OrderedDict()}
+[0.001044] (ldlidar_component) JobQueued: {'identifier': 'ldlidar_component', 'dependencies': OrderedDict()}
+[0.001913] (sdl2_vendor) JobQueued: {'identifier': 'sdl2_vendor', 'dependencies': OrderedDict()}
+[0.002652] (spacenav) JobQueued: {'identifier': 'spacenav', 'dependencies': OrderedDict()}
+[0.002761] (joy) JobQueued: {'identifier': 'joy', 'dependencies': OrderedDict({'sdl2_vendor': '/home/turbo/Documents/hisp_ws/install/sdl2_vendor'})}
+[0.002897] (ldlidar_node) JobQueued: {'identifier': 'ldlidar_node', 'dependencies': OrderedDict({'ldlidar_component': '/home/turbo/Documents/hisp_ws/install/ldlidar_component'})}
+[0.002930] (ldlidar) JobQueued: {'identifier': 'ldlidar', 'dependencies': OrderedDict({'ldlidar_component': '/home/turbo/Documents/hisp_ws/install/ldlidar_component', 'ldlidar_node': '/home/turbo/Documents/hisp_ws/install/ldlidar_node'})}
+[0.002961] (ldlidar_component) JobStarted: {'identifier': 'ldlidar_component'}
+[0.015329] (sdl2_vendor) JobStarted: {'identifier': 'sdl2_vendor'}
+[0.020671] (joy_linux) JobStarted: {'identifier': 'joy_linux'}
+[0.042462] (spacenav) JobStarted: {'identifier': 'spacenav'}
+[0.067574] (ldlidar_component) JobProgress: {'identifier': 'ldlidar_component', 'progress': 'cmake'}
+[0.076863] (ldlidar_component) Command: {'cmd': ['/usr/bin/cmake', '/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/ldlidar_component'], 'cwd': '/home/turbo/Documents/hisp_ws/build/ldlidar_component', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib:/home/turbo/Documents/hisp_ws/install/joy/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '87344', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/87160,unix/turbo:/tmp/.ICE-unix/87160', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0b5e9cd_0323_49eb_839a_3f037e559895', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UPBXP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/ldlidar_component', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[0.083240] (sdl2_vendor) JobProgress: {'identifier': 'sdl2_vendor', 'progress': 'cmake'}
+[0.087863] (sdl2_vendor) Command: {'cmd': ['/usr/bin/cmake', '/home/turbo/Documents/hisp_ws/src/joystick_drivers/sdl2_vendor', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/sdl2_vendor'], 'cwd': '/home/turbo/Documents/hisp_ws/build/sdl2_vendor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib:/home/turbo/Documents/hisp_ws/install/joy/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '87344', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/87160,unix/turbo:/tmp/.ICE-unix/87160', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0b5e9cd_0323_49eb_839a_3f037e559895', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UPBXP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/sdl2_vendor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[0.090647] (joy_linux) JobProgress: {'identifier': 'joy_linux', 'progress': 'cmake'}
+[0.097170] (joy_linux) Command: {'cmd': ['/usr/bin/cmake', '/home/turbo/Documents/hisp_ws/src/joystick_drivers/joy_linux', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/joy_linux'], 'cwd': '/home/turbo/Documents/hisp_ws/build/joy_linux', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib:/home/turbo/Documents/hisp_ws/install/joy/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '87344', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/87160,unix/turbo:/tmp/.ICE-unix/87160', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0b5e9cd_0323_49eb_839a_3f037e559895', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UPBXP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/joy_linux', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[0.099908] (-) TimerEvent: {}
+[0.119421] (ldlidar_component) StdoutLine: {'line': b'--  * Release Mode\n'}
+[0.119820] (ldlidar_component) StdoutLine: {'line': b'-- * Found ROS2 jazzy\n'}
+[0.119943] (ldlidar_component) StdoutLine: {'line': b'-- * ROS2 jazzy is officially supported by this package.\n'}
+[0.120099] (ldlidar_component) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.127842] (spacenav) JobProgress: {'identifier': 'spacenav', 'progress': 'cmake'}
+[0.135063] (spacenav) Command: {'cmd': ['/usr/bin/cmake', '/home/turbo/Documents/hisp_ws/src/joystick_drivers/spacenav', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/spacenav'], 'cwd': '/home/turbo/Documents/hisp_ws/build/spacenav', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib:/home/turbo/Documents/hisp_ws/install/joy/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '87344', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/87160,unix/turbo:/tmp/.ICE-unix/87160', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0b5e9cd_0323_49eb_839a_3f037e559895', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UPBXP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/spacenav', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[0.136430] (sdl2_vendor) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.148413] (joy_linux) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.174070] (spacenav) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.200216] (-) TimerEvent: {}
+[0.300685] (-) TimerEvent: {}
+[0.402536] (-) TimerEvent: {}
+[0.503016] (-) TimerEvent: {}
+[0.603631] (-) TimerEvent: {}
+[0.704351] (-) TimerEvent: {}
+[0.714060] (sdl2_vendor) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.715768] (spacenav) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.715987] (joy_linux) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.716164] (ldlidar_component) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.785590] (joy_linux) StdoutLine: {'line': b'-- Found diagnostic_msgs: 5.3.7 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)\n'}
+[0.785993] (ldlidar_component) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.18 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[0.789110] (spacenav) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.804469] (-) TimerEvent: {}
+[0.904871] (-) TimerEvent: {}
+[0.919791] (ldlidar_component) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.920259] (spacenav) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.920421] (joy_linux) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.945155] (joy_linux) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.945502] (spacenav) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.947145] (ldlidar_component) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.005017] (-) TimerEvent: {}
+[1.075585] (spacenav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.076006] (joy_linux) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.076546] (ldlidar_component) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.105087] (-) TimerEvent: {}
+[1.164108] (sdl2_vendor) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.189605] (ldlidar_component) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.189909] (sdl2_vendor) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.190642] (spacenav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.190911] (joy_linux) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.196545] (sdl2_vendor) StdoutLine: {'line': b'-- Build files have been written to: /home/turbo/Documents/hisp_ws/build/sdl2_vendor\n'}
+[1.203959] (sdl2_vendor) CommandEnded: {'returncode': 0}
+[1.204770] (sdl2_vendor) JobProgress: {'identifier': 'sdl2_vendor', 'progress': 'build'}
+[1.204822] (sdl2_vendor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turbo/Documents/hisp_ws/build/sdl2_vendor', '--', '-j4', '-l4'], 'cwd': '/home/turbo/Documents/hisp_ws/build/sdl2_vendor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib:/home/turbo/Documents/hisp_ws/install/joy/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '87344', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/87160,unix/turbo:/tmp/.ICE-unix/87160', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0b5e9cd_0323_49eb_839a_3f037e559895', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UPBXP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/sdl2_vendor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[1.205764] (-) TimerEvent: {}
+[1.307202] (-) TimerEvent: {}
+[1.322549] (sdl2_vendor) CommandEnded: {'returncode': 0}
+[1.325498] (sdl2_vendor) JobProgress: {'identifier': 'sdl2_vendor', 'progress': 'install'}
+[1.336036] (spacenav) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.342907] (sdl2_vendor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/turbo/Documents/hisp_ws/build/sdl2_vendor'], 'cwd': '/home/turbo/Documents/hisp_ws/build/sdl2_vendor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib:/home/turbo/Documents/hisp_ws/install/joy/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '87344', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/87160,unix/turbo:/tmp/.ICE-unix/87160', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0b5e9cd_0323_49eb_839a_3f037e559895', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UPBXP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/sdl2_vendor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[1.358647] (joy_linux) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.2.6 (/opt/ros/jazzy/share/diagnostic_updater/cmake)\n'}
+[1.360519] (sdl2_vendor) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[1.362058] (sdl2_vendor) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.363445] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/Modules/Findsdl2_custom.cmake\n'}
+[1.363739] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/ament_index/resource_index/package_run_dependencies/sdl2_vendor\n'}
+[1.364527] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/ament_index/resource_index/parent_prefix_path/sdl2_vendor\n'}
+[1.365202] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.sh\n'}
+[1.366139] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.dsv\n'}
+[1.366355] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/path.sh\n'}
+[1.370276] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/path.dsv\n'}
+[1.370458] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.bash\n'}
+[1.370588] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.sh\n'}
+[1.370693] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.zsh\n'}
+[1.370795] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.dsv\n'}
+[1.371112] (sdl2_vendor) StdoutLine: {'line': b'-- Symlinking: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.dsv\n'}
+[1.406245] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/ament_index/resource_index/packages/sdl2_vendor\n'}
+[1.407262] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendor-extras.cmake\n'}
+[1.407495] (-) TimerEvent: {}
+[1.409233] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig.cmake\n'}
+[1.409578] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig-version.cmake\n'}
+[1.410162] (sdl2_vendor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.xml\n'}
+[1.416355] (sdl2_vendor) CommandEnded: {'returncode': 0}
+[1.507652] (-) TimerEvent: {}
+[1.533939] (ldlidar_component) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.534365] (spacenav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.534548] (joy_linux) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.540334] (joy_linux) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.540799] (spacenav) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.541000] (ldlidar_component) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.607734] (-) TimerEvent: {}
+[1.611610] (sdl2_vendor) JobEnded: {'identifier': 'sdl2_vendor', 'rc': 0}
+[1.614195] (joy) JobStarted: {'identifier': 'joy'}
+[1.627829] (joy) JobProgress: {'identifier': 'joy', 'progress': 'cmake'}
+[1.655825] (joy) JobProgress: {'identifier': 'joy', 'progress': 'build'}
+[1.656001] (joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turbo/Documents/hisp_ws/build/joy', '--', '-j4', '-l4'], 'cwd': '/home/turbo/Documents/hisp_ws/build/joy', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib:/home/turbo/Documents/hisp_ws/install/joy/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '87344', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/87160,unix/turbo:/tmp/.ICE-unix/87160', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0b5e9cd_0323_49eb_839a_3f037e559895', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UPBXP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/joy', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[1.707867] (-) TimerEvent: {}
+[1.811088] (-) TimerEvent: {}
+[1.823388] (ldlidar_component) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.844173] (joy_linux) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.845174] (spacenav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.911204] (-) TimerEvent: {}
+[1.962337] (joy) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o\x1b[0m\n'}
+[1.967083] (joy) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/joy_node.dir/rclcpp_components/node_main_joy_node.cpp.o\x1b[0m\n'}
+[1.967522] (joy) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/game_controller.dir/src/game_controller.cpp.o\x1b[0m\n'}
+[1.967785] (joy) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/joy.dir/src/joy.cpp.o\x1b[0m\n'}
+[2.011320] (-) TimerEvent: {}
+[2.062208] (spacenav) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[2.073644] (joy_linux) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.086334] (ldlidar_component) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[2.111461] (-) TimerEvent: {}
+[2.167100] (spacenav) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.168323] (ldlidar_component) StdoutLine: {'line': b'-- Found nav2_util: 1.3.11 (/opt/ros/jazzy/share/nav2_util/cmake)\n'}
+[2.176056] (joy_linux) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.214223] (-) TimerEvent: {}
+[2.231855] (spacenav) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.314350] (-) TimerEvent: {}
+[2.415557] (-) TimerEvent: {}
+[2.516298] (-) TimerEvent: {}
+[2.537806] (joy_linux) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.538094] (joy_linux) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/turbo/Documents/hisp_ws/src/joystick_drivers/joy_linux/msg/cpp\n'}
+[2.538225] (joy_linux) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.542489] (joy_linux) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.544112] (joy_linux) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.546318] (joy_linux) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.552397] (joy_linux) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.552743] (spacenav) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.554012] (joy_linux) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.556709] (joy_linux) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.556837] (spacenav) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/turbo/Documents/hisp_ws/src/joystick_drivers/spacenav/include>\n'}
+[2.556959] (spacenav) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.558516] (spacenav) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.559228] (spacenav) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.560186] (spacenav) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.564016] (spacenav) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.564261] (spacenav) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.564652] (spacenav) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.565200] (spacenav) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.565535] (spacenav) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.571065] (spacenav) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.576963] (joy_linux) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[2.598087] (spacenav) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[2.616427] (-) TimerEvent: {}
+[2.673159] (spacenav) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.677773] (joy_linux) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.691022] (spacenav) StdoutLine: {'line': b'-- Build files have been written to: /home/turbo/Documents/hisp_ws/build/spacenav\n'}
+[2.691392] (joy_linux) StdoutLine: {'line': b'-- Build files have been written to: /home/turbo/Documents/hisp_ws/build/joy_linux\n'}
+[2.712755] (spacenav) CommandEnded: {'returncode': 0}
+[2.720345] (-) TimerEvent: {}
+[2.721084] (spacenav) JobProgress: {'identifier': 'spacenav', 'progress': 'build'}
+[2.721173] (spacenav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turbo/Documents/hisp_ws/build/spacenav', '--', '-j4', '-l4'], 'cwd': '/home/turbo/Documents/hisp_ws/build/spacenav', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib:/home/turbo/Documents/hisp_ws/install/joy/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '87344', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/87160,unix/turbo:/tmp/.ICE-unix/87160', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0b5e9cd_0323_49eb_839a_3f037e559895', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UPBXP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/spacenav', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[2.722768] (joy_linux) CommandEnded: {'returncode': 0}
+[2.723883] (joy_linux) JobProgress: {'identifier': 'joy_linux', 'progress': 'build'}
+[2.723940] (joy_linux) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turbo/Documents/hisp_ws/build/joy_linux', '--', '-j4', '-l4'], 'cwd': '/home/turbo/Documents/hisp_ws/build/joy_linux', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib:/home/turbo/Documents/hisp_ws/install/joy/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '87344', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/87160,unix/turbo:/tmp/.ICE-unix/87160', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0b5e9cd_0323_49eb_839a_3f037e559895', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UPBXP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/joy_linux', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[2.820648] (-) TimerEvent: {}
+[2.873583] (spacenav) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/spacenav_node.dir/rclcpp_components/node_main_spacenav_node.cpp.o\x1b[0m\n'}
+[2.892002] (joy_linux) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o\x1b[0m\n'}
+[2.923479] (-) TimerEvent: {}
+[2.958054] (spacenav) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/spacenav.dir/src/spacenav.cpp.o\x1b[0m\n'}
+[3.025057] (-) TimerEvent: {}
+[3.126050] (-) TimerEvent: {}
+[3.226691] (-) TimerEvent: {}
+[3.332047] (-) TimerEvent: {}
+[3.396218] (ldlidar_component) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[3.402029] (ldlidar_component) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.432797] (-) TimerEvent: {}
+[3.536365] (-) TimerEvent: {}
+[3.637428] (-) TimerEvent: {}
+[3.687714] (ldlidar_component) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[3.739063] (-) TimerEvent: {}
+[3.744090] (ldlidar_component) StdoutLine: {'line': b'-- Found diagnostic_msgs: 5.3.7 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)\n'}
+[3.773539] (ldlidar_component) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.2.6 (/opt/ros/jazzy/share/diagnostic_updater/cmake)\n'}
+[3.838408] (ldlidar_component) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.839153] (-) TimerEvent: {}
+[3.941095] (-) TimerEvent: {}
+[4.041696] (-) TimerEvent: {}
+[4.145879] (-) TimerEvent: {}
+[4.249502] (-) TimerEvent: {}
+[4.337597] (ldlidar_component) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.353260] (-) TimerEvent: {}
+[4.377739] (ldlidar_component) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.390135] (ldlidar_component) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/include;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/tools/include;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/component/include;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/core;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/dataprocess;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/filter;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/logger;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/networkcom;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/serialcom\n'}
+[4.390598] (ldlidar_component) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.405420] (ldlidar_component) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.405863] (ldlidar_component) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.422887] (ldlidar_component) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.446139] (ldlidar_component) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.446580] (ldlidar_component) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.452087] (ldlidar_component) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.453382] (-) TimerEvent: {}
+[4.476241] (ldlidar_component) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[4.553090] (ldlidar_component) StdoutLine: {'line': b'-- Configuring done (4.5s)\n'}
+[4.553487] (-) TimerEvent: {}
+[4.653928] (-) TimerEvent: {}
+[4.757101] (-) TimerEvent: {}
+[4.857662] (-) TimerEvent: {}
+[4.961440] (-) TimerEvent: {}
+[5.066116] (-) TimerEvent: {}
+[5.166832] (-) TimerEvent: {}
+[5.273107] (-) TimerEvent: {}
+[5.345777] (ldlidar_component) StdoutLine: {'line': b'-- Generating done (0.7s)\n'}
+[5.376607] (-) TimerEvent: {}
+[5.471526] (ldlidar_component) StdoutLine: {'line': b'-- Build files have been written to: /home/turbo/Documents/hisp_ws/build/ldlidar_component\n'}
+[5.476911] (-) TimerEvent: {}
+[5.580897] (-) TimerEvent: {}
+[5.605576] (ldlidar_component) CommandEnded: {'returncode': 0}
+[5.613799] (ldlidar_component) JobProgress: {'identifier': 'ldlidar_component', 'progress': 'build'}
+[5.614091] (ldlidar_component) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turbo/Documents/hisp_ws/build/ldlidar_component', '--', '-j4', '-l4'], 'cwd': '/home/turbo/Documents/hisp_ws/build/ldlidar_component', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'turbo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/turbo/Documents/hisp_ws/install/spacenav/lib:/home/turbo/Documents/hisp_ws/install/joy/lib', 'HOME': '/home/turbo', 'OLDPWD': '/home/turbo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '87344', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/turbo/Documents/hisp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'turbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'turbo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/turbo:@/tmp/.ICE-unix/87160,unix/turbo:/tmp/.ICE-unix/87160', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0b5e9cd_0323_49eb_839a_3f037e559895', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UPBXP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/turbo/Documents/hisp_ws/build/ldlidar_component', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy'}), 'shell': False}
+[5.692101] (-) TimerEvent: {}
+[5.792957] (-) TimerEvent: {}
+[5.893658] (-) TimerEvent: {}
+[5.977164] (ldlidar_component) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar.dir/ldlidar_stl_sdk/ldlidar_driver/src/core/ldlidar_driver.cpp.o\x1b[0m\n'}
+[5.992205] (ldlidar_component) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar.dir/ldlidar_stl_sdk/ldlidar_driver/src/filter/tofbf.cpp.o\x1b[0m\n'}
+[5.993811] (-) TimerEvent: {}
+[6.010734] (ldlidar_component) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar.dir/ldlidar_stl_sdk/ldlidar_driver/src/dataprocess/lipkg.cpp.o\x1b[0m\n'}
+[6.095080] (-) TimerEvent: {}
+[6.195549] (-) TimerEvent: {}
+[6.303788] (-) TimerEvent: {}
+[6.408083] (-) TimerEvent: {}
+[6.515280] (-) TimerEvent: {}
+[6.615736] (-) TimerEvent: {}
+[6.718099] (-) TimerEvent: {}
+[6.818702] (-) TimerEvent: {}
+[6.922499] (-) TimerEvent: {}
+[7.023066] (-) TimerEvent: {}
+[7.129098] (-) TimerEvent: {}
+[7.166923] (ldlidar_component) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar.dir/ldlidar_stl_sdk/ldlidar_driver/src/logger/log_module.cpp.o\x1b[0m\n'}
+[7.230108] (-) TimerEvent: {}
+[7.335308] (-) TimerEvent: {}
+[7.436265] (-) TimerEvent: {}
+[7.539092] (-) TimerEvent: {}
+[7.642098] (-) TimerEvent: {}
+[7.742556] (-) TimerEvent: {}
+[7.848085] (-) TimerEvent: {}
+[7.948591] (-) TimerEvent: {}
+[8.049310] (-) TimerEvent: {}
+[8.149846] (-) TimerEvent: {}
+[8.260090] (-) TimerEvent: {}
+[8.360564] (-) TimerEvent: {}
+[8.465092] (-) TimerEvent: {}
+[8.565699] (-) TimerEvent: {}
+[8.672080] (-) TimerEvent: {}
+[8.775112] (-) TimerEvent: {}
+[8.880093] (-) TimerEvent: {}
+[8.983096] (-) TimerEvent: {}
+[9.086078] (-) TimerEvent: {}
+[9.188087] (-) TimerEvent: {}
+[9.288576] (-) TimerEvent: {}
+[9.389224] (-) TimerEvent: {}
+[9.489880] (-) TimerEvent: {}
+[9.593091] (-) TimerEvent: {}
+[9.693747] (-) TimerEvent: {}
+[9.797077] (-) TimerEvent: {}
+[9.897518] (-) TimerEvent: {}
+[9.997971] (-) TimerEvent: {}
+[10.098571] (-) TimerEvent: {}
+[10.205111] (-) TimerEvent: {}
+[10.305549] (-) TimerEvent: {}
+[10.412083] (-) TimerEvent: {}
+[10.512684] (-) TimerEvent: {}
+[10.622110] (-) TimerEvent: {}
+[10.731223] (-) TimerEvent: {}
+[10.831682] (-) TimerEvent: {}
+[10.933044] (-) TimerEvent: {}
+[11.033523] (-) TimerEvent: {}
+[11.133971] (-) TimerEvent: {}
+[11.234511] (-) TimerEvent: {}
+[11.338736] (-) TimerEvent: {}
+[11.439394] (-) TimerEvent: {}
+[11.543089] (-) TimerEvent: {}
+[11.643541] (-) TimerEvent: {}
+[11.697048] (ldlidar_component) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar.dir/ldlidar_stl_sdk/ldlidar_driver/src/serialcom/serial_interface_linux.cpp.o\x1b[0m\n'}
+[11.743673] (-) TimerEvent: {}
+[11.844575] (-) TimerEvent: {}
+[11.945413] (-) TimerEvent: {}
+[12.045865] (-) TimerEvent: {}
+[12.147469] (-) TimerEvent: {}
+[12.247995] (-) TimerEvent: {}
+[12.348412] (-) TimerEvent: {}
+[12.451079] (-) TimerEvent: {}
+[12.551531] (-) TimerEvent: {}
+[12.651929] (-) TimerEvent: {}
+[12.752331] (-) TimerEvent: {}
+[12.852717] (-) TimerEvent: {}
+[12.953145] (-) TimerEvent: {}
+[13.053560] (-) TimerEvent: {}
+[13.154007] (-) TimerEvent: {}
+[13.254507] (-) TimerEvent: {}
+[13.354934] (-) TimerEvent: {}
+[13.455275] (-) TimerEvent: {}
+[13.555524] (-) TimerEvent: {}
+[13.655790] (-) TimerEvent: {}
+[13.756079] (-) TimerEvent: {}
+[13.856299] (-) TimerEvent: {}
+[13.956559] (-) TimerEvent: {}
+[14.056908] (-) TimerEvent: {}
+[14.157303] (-) TimerEvent: {}
+[14.257720] (-) TimerEvent: {}
+[14.358142] (-) TimerEvent: {}
+[14.458552] (-) TimerEvent: {}
+[14.558953] (-) TimerEvent: {}
+[14.659357] (-) TimerEvent: {}
+[14.759717] (-) TimerEvent: {}
+[14.860071] (-) TimerEvent: {}
+[14.960478] (-) TimerEvent: {}
+[15.069079] (-) TimerEvent: {}
+[15.169541] (-) TimerEvent: {}
+[15.269968] (-) TimerEvent: {}
+[15.387085] (-) TimerEvent: {}
+[15.487580] (-) TimerEvent: {}
+[15.589075] (-) TimerEvent: {}
+[15.696100] (-) TimerEvent: {}
+[15.796542] (-) TimerEvent: {}
+[15.897546] (-) TimerEvent: {}
+[16.001409] (-) TimerEvent: {}
+[16.109073] (-) TimerEvent: {}
+[16.209609] (-) TimerEvent: {}
+[16.310258] (-) TimerEvent: {}
+[16.416206] (-) TimerEvent: {}
+[16.530108] (-) TimerEvent: {}
+[16.633078] (-) TimerEvent: {}
+[16.751091] (-) TimerEvent: {}
+[16.857094] (-) TimerEvent: {}
+[16.966073] (-) TimerEvent: {}
+[17.066523] (-) TimerEvent: {}
+[17.167287] (-) TimerEvent: {}
+[17.267788] (-) TimerEvent: {}
+[17.370909] (-) TimerEvent: {}
+[17.471392] (-) TimerEvent: {}
+[17.573097] (-) TimerEvent: {}
+[17.673597] (-) TimerEvent: {}
+[17.774085] (-) TimerEvent: {}
+[17.876086] (-) TimerEvent: {}
+[17.977222] (-) TimerEvent: {}
+[18.078170] (-) TimerEvent: {}
+[18.180539] (-) TimerEvent: {}
+[18.281014] (-) TimerEvent: {}
+[18.381471] (-) TimerEvent: {}
+[18.481930] (-) TimerEvent: {}
+[18.592087] (-) TimerEvent: {}
+[18.699123] (-) TimerEvent: {}
+[18.825137] (-) TimerEvent: {}
+[18.928599] (-) TimerEvent: {}
+[19.029092] (-) TimerEvent: {}
+[19.129615] (-) TimerEvent: {}
+[19.233093] (-) TimerEvent: {}
+[19.333570] (-) TimerEvent: {}
+[19.437091] (-) TimerEvent: {}
+[19.539097] (-) TimerEvent: {}
+[19.639558] (-) TimerEvent: {}
+[19.748817] (-) TimerEvent: {}
+[19.850139] (-) TimerEvent: {}
+[19.955345] (-) TimerEvent: {}
+[20.058177] (-) TimerEvent: {}
+[20.161110] (-) TimerEvent: {}
+[20.264518] (-) TimerEvent: {}
+[20.358891] (ldlidar_component) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar.dir/ldlidar_stl_sdk/ldlidar_driver/src/networkcom/network_socket_interface_linux.cpp.o\x1b[0m\n'}
+[20.865193] (-) TimerEvent: {}
+[20.965602] (-) TimerEvent: {}
+[21.066259] (-) TimerEvent: {}
+[21.167360] (-) TimerEvent: {}
+[21.267935] (-) TimerEvent: {}
+[21.370587] (-) TimerEvent: {}
+[21.476111] (-) TimerEvent: {}
+[21.576700] (-) TimerEvent: {}
+[21.679276] (-) TimerEvent: {}
+[25.000938] (-) TimerEvent: {}
+[25.699756] (-) TimerEvent: {}
+[25.800200] (-) TimerEvent: {}
+[25.954682] (-) TimerEvent: {}
+[26.252493] (-) TimerEvent: {}
+[26.355396] (-) TimerEvent: {}
+[26.455822] (-) TimerEvent: {}
+[26.556225] (-) TimerEvent: {}
+[26.656620] (-) TimerEvent: {}
+[26.757054] (-) TimerEvent: {}
+[26.857443] (-) TimerEvent: {}
+[26.957820] (-) TimerEvent: {}
+[27.058273] (-) TimerEvent: {}
+[27.158620] (-) TimerEvent: {}
+[27.259055] (-) TimerEvent: {}
+[27.359490] (-) TimerEvent: {}
+[27.459949] (-) TimerEvent: {}
+[27.561759] (-) TimerEvent: {}
+[27.662218] (-) TimerEvent: {}
+[27.762716] (-) TimerEvent: {}
+[27.864083] (-) TimerEvent: {}
+[27.964612] (-) TimerEvent: {}
+[51.025135] (-) TimerEvent: {}
+[51.247697] (-) TimerEvent: {}
+[51.348131] (-) TimerEvent: {}
+[51.448570] (-) TimerEvent: {}
+[51.549016] (-) TimerEvent: {}
+[51.649426] (-) TimerEvent: {}
+[51.749842] (-) TimerEvent: {}
+[51.850277] (-) TimerEvent: {}
+[51.950677] (-) TimerEvent: {}
+[52.051104] (-) TimerEvent: {}
+[52.151525] (-) TimerEvent: {}
+[52.251948] (-) TimerEvent: {}
+[52.352371] (-) TimerEvent: {}
+[52.452727] (-) TimerEvent: {}
+[52.553141] (-) TimerEvent: {}
+[52.653582] (-) TimerEvent: {}
+[52.759860] (spacenav) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KKilled signal terminated program cc1plus\n'}
+[52.828220] (-) TimerEvent: {}
+[52.828515] (spacenav) StderrLine: {'line': b'compilation terminated.\n'}
+[52.877316] (spacenav) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/spacenav.dir/build.make:76: CMakeFiles/spacenav.dir/src/spacenav.cpp.o] Error 1\n'}
+[52.921038] (spacenav) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/spacenav.dir/all] Error 2\n'}
+[52.921492] (spacenav) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[52.929102] (-) TimerEvent: {}
+[53.030058] (-) TimerEvent: {}
+[53.132381] (-) TimerEvent: {}
+[53.232946] (-) TimerEvent: {}
+[53.335083] (-) TimerEvent: {}
+[53.435526] (-) TimerEvent: {}
+[53.539092] (-) TimerEvent: {}
+[53.648126] (-) TimerEvent: {}
+[53.748696] (-) TimerEvent: {}
+[53.851107] (-) TimerEvent: {}
+[53.962119] (-) TimerEvent: {}
+[54.062716] (-) TimerEvent: {}
+[54.163305] (-) TimerEvent: {}
+[54.263975] (-) TimerEvent: {}
+[54.365452] (-) TimerEvent: {}
+[54.465923] (-) TimerEvent: {}
+[54.569076] (-) TimerEvent: {}
+[54.669556] (-) TimerEvent: {}
+[54.773071] (-) TimerEvent: {}
+[54.873499] (-) TimerEvent: {}
+[55.089395] (-) TimerEvent: {}
+[55.191453] (-) TimerEvent: {}
+[55.294084] (-) TimerEvent: {}
+[55.396120] (-) TimerEvent: {}
+[55.499074] (-) TimerEvent: {}
+[55.599538] (-) TimerEvent: {}
+[55.700006] (-) TimerEvent: {}
+[55.800414] (-) TimerEvent: {}
+[55.900805] (-) TimerEvent: {}
+[56.001293] (-) TimerEvent: {}
+[56.101894] (-) TimerEvent: {}
+[56.202363] (-) TimerEvent: {}
+[56.302758] (-) TimerEvent: {}
+[56.403229] (-) TimerEvent: {}
+[56.503724] (-) TimerEvent: {}
+[56.604299] (-) TimerEvent: {}
+[56.704732] (-) TimerEvent: {}
+[56.808082] (-) TimerEvent: {}
+[56.908568] (-) TimerEvent: {}
+[57.009025] (-) TimerEvent: {}
+[57.109543] (-) TimerEvent: {}
+[57.210070] (-) TimerEvent: {}
+[57.311955] (-) TimerEvent: {}
+[57.412429] (-) TimerEvent: {}
+[57.512903] (-) TimerEvent: {}
+[57.614545] (-) TimerEvent: {}
+[57.715149] (-) TimerEvent: {}
+[57.815557] (-) TimerEvent: {}
+[57.918088] (-) TimerEvent: {}
+[58.018562] (-) TimerEvent: {}
+[58.119039] (-) TimerEvent: {}
+[58.222411] (-) TimerEvent: {}
+[58.325069] (-) TimerEvent: {}
+[58.425581] (-) TimerEvent: {}
+[58.526012] (-) TimerEvent: {}
+[58.626424] (-) TimerEvent: {}
+[58.729379] (-) TimerEvent: {}
+[58.836242] (-) TimerEvent: {}
+[58.936910] (-) TimerEvent: {}
+[59.037365] (-) TimerEvent: {}
+[59.138148] (-) TimerEvent: {}
+[59.238630] (-) TimerEvent: {}
+[59.342231] (-) TimerEvent: {}
+[59.442729] (-) TimerEvent: {}
+[59.543507] (-) TimerEvent: {}
+[59.645000] (-) TimerEvent: {}
+[59.748267] (-) TimerEvent: {}
+[59.793499] (ldlidar_component) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libldlidar.so\x1b[0m\n'}
+[59.839197] (spacenav) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable spacenav_node\x1b[0m\n'}
+[59.843793] (joy) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable game_controller_node\x1b[0m\n'}
+[59.857869] (-) TimerEvent: {}
+[59.858308] (joy) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable joy_node\x1b[0m\n'}
+[59.958071] (-) TimerEvent: {}
+[60.059097] (-) TimerEvent: {}
+[60.159651] (-) TimerEvent: {}
+[60.260202] (-) TimerEvent: {}
+[60.363466] (-) TimerEvent: {}
+[60.436162] (ldlidar_component) StdoutLine: {'line': b'[ 70%] Built target ldlidar\n'}
+[60.463705] (-) TimerEvent: {}
+[60.564400] (-) TimerEvent: {}
+[60.617084] (ldlidar_component) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_component.dir/tools/src/ldlidar_tools.cpp.o\x1b[0m\n'}
+[60.664501] (-) TimerEvent: {}
+[60.765089] (-) TimerEvent: {}
+[60.868358] (-) TimerEvent: {}
+[60.968849] (-) TimerEvent: {}
+[61.072209] (-) TimerEvent: {}
+[61.175084] (-) TimerEvent: {}
+[61.275743] (-) TimerEvent: {}
+[61.313511] (joy) StdoutLine: {'line': b'[ 60%] Built target joy_node\n'}
+[61.354138] (spacenav) StdoutLine: {'line': b'[ 75%] Built target spacenav_node\n'}
+[61.366110] (spacenav) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[61.366755] (joy) StdoutLine: {'line': b'[ 60%] Built target game_controller_node\n'}
+[61.376740] (-) TimerEvent: {}
+[61.452566] (ldlidar_component) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_component.dir/component/src/ldlidar_component.cpp.o\x1b[0m\n'}
+[61.476871] (-) TimerEvent: {}
+[61.577805] (-) TimerEvent: {}
+[61.619389] (spacenav) CommandEnded: {'returncode': 2}
+[61.677941] (-) TimerEvent: {}
+[61.789313] (-) TimerEvent: {}
+[61.895641] (-) TimerEvent: {}
+[61.999062] (-) TimerEvent: {}
+[62.110763] (-) TimerEvent: {}
+[62.211237] (-) TimerEvent: {}
+[62.317102] (-) TimerEvent: {}
+[62.439186] (-) TimerEvent: {}
+[62.540382] (-) TimerEvent: {}
+[62.635053] (spacenav) JobEnded: {'identifier': 'spacenav', 'rc': 2}
+[62.664410] (-) TimerEvent: {}
+[62.768775] (-) TimerEvent: {}
+[62.870084] (-) TimerEvent: {}
+[62.970563] (-) TimerEvent: {}
+[63.073202] (-) TimerEvent: {}
+[63.173714] (-) TimerEvent: {}
+[63.274181] (-) TimerEvent: {}
+[63.374963] (-) TimerEvent: {}
+[63.480349] (-) TimerEvent: {}
+[63.580799] (-) TimerEvent: {}
+[63.681268] (-) TimerEvent: {}
+[63.781728] (-) TimerEvent: {}
+[63.882176] (-) TimerEvent: {}
+[63.985091] (-) TimerEvent: {}
+[64.085565] (-) TimerEvent: {}
+[64.186067] (-) TimerEvent: {}
+[64.286798] (-) TimerEvent: {}
+[64.387316] (-) TimerEvent: {}
+[64.487849] (-) TimerEvent: {}
+[64.590683] (-) TimerEvent: {}
+[64.691197] (-) TimerEvent: {}
+[64.794548] (-) TimerEvent: {}
+[64.895067] (-) TimerEvent: {}
+[64.995606] (-) TimerEvent: {}
+[65.096083] (-) TimerEvent: {}
+[65.201312] (-) TimerEvent: {}
+[65.301799] (-) TimerEvent: {}
+[65.402285] (-) TimerEvent: {}
+[65.505659] (-) TimerEvent: {}
+[65.606204] (-) TimerEvent: {}
+[65.709347] (-) TimerEvent: {}
+[65.809970] (-) TimerEvent: {}
+[65.915322] (-) TimerEvent: {}
+[66.015820] (-) TimerEvent: {}
+[66.116420] (-) TimerEvent: {}
+[66.217037] (-) TimerEvent: {}
+[66.324450] (-) TimerEvent: {}
+[66.424917] (-) TimerEvent: {}
+[66.528365] (-) TimerEvent: {}
+[66.629092] (-) TimerEvent: {}
+[66.730048] (-) TimerEvent: {}
+[66.833656] (-) TimerEvent: {}
+[66.934493] (-) TimerEvent: {}
+[67.040767] (-) TimerEvent: {}
+[67.141509] (-) TimerEvent: {}
+[67.242299] (-) TimerEvent: {}
+[67.343086] (-) TimerEvent: {}
+[67.446453] (-) TimerEvent: {}
+[67.547156] (-) TimerEvent: {}
+[67.647942] (-) TimerEvent: {}
+[67.751831] (-) TimerEvent: {}
+[67.852613] (-) TimerEvent: {}
+[67.955081] (-) TimerEvent: {}
+[68.055733] (-) TimerEvent: {}
+[68.156450] (-) TimerEvent: {}
+[68.260590] (-) TimerEvent: {}
+[68.361279] (-) TimerEvent: {}
+[68.461975] (-) TimerEvent: {}
+[68.562650] (-) TimerEvent: {}
+[68.666467] (-) TimerEvent: {}
+[68.766902] (-) TimerEvent: {}
+[68.867431] (-) TimerEvent: {}
+[68.968084] (-) TimerEvent: {}
+[69.073307] (-) TimerEvent: {}
+[69.174326] (-) TimerEvent: {}
+[69.274929] (-) TimerEvent: {}
+[69.376736] (-) TimerEvent: {}
+[69.479372] (-) TimerEvent: {}
+[69.580070] (-) TimerEvent: {}
+[69.681398] (-) TimerEvent: {}
+[69.784376] (-) TimerEvent: {}
+[69.887469] (-) TimerEvent: {}
+[69.992101] (-) TimerEvent: {}
+[70.099072] (-) TimerEvent: {}
+[70.199825] (-) TimerEvent: {}
+[70.303529] (-) TimerEvent: {}
+[70.406118] (-) TimerEvent: {}
+[70.506779] (-) TimerEvent: {}
+[70.610532] (-) TimerEvent: {}
+[70.711252] (-) TimerEvent: {}
+[70.814692] (-) TimerEvent: {}
+[70.918282] (-) TimerEvent: {}
+[71.018855] (-) TimerEvent: {}
+[71.119350] (-) TimerEvent: {}
+[71.222511] (-) TimerEvent: {}
+[71.323183] (-) TimerEvent: {}
+[71.423806] (-) TimerEvent: {}
+[71.524458] (-) TimerEvent: {}
+[71.627351] (-) TimerEvent: {}
+[71.728008] (-) TimerEvent: {}
+[71.828587] (-) TimerEvent: {}
+[71.934168] (-) TimerEvent: {}
+[72.036102] (-) TimerEvent: {}
+[72.136774] (-) TimerEvent: {}
+[72.237354] (-) TimerEvent: {}
+[72.339105] (-) TimerEvent: {}
+[72.439664] (-) TimerEvent: {}
+[72.542093] (-) TimerEvent: {}
+[72.642732] (-) TimerEvent: {}
+[72.743190] (-) TimerEvent: {}
+[72.843602] (-) TimerEvent: {}
+[72.944019] (-) TimerEvent: {}
+[73.046672] (-) TimerEvent: {}
+[73.147648] (-) TimerEvent: {}
+[73.248319] (-) TimerEvent: {}
+[73.348843] (-) TimerEvent: {}
+[73.452343] (-) TimerEvent: {}
+[73.553031] (-) TimerEvent: {}
+[73.653674] (-) TimerEvent: {}
+[73.754332] (-) TimerEvent: {}
+[73.855190] (-) TimerEvent: {}
+[73.957659] (-) TimerEvent: {}
+[74.058140] (-) TimerEvent: {}
+[74.996382] (-) TimerEvent: {}
+[75.096880] (-) TimerEvent: {}
+[75.197527] (-) TimerEvent: {}
+[75.300093] (-) TimerEvent: {}
+[75.400767] (-) TimerEvent: {}
+[75.501466] (-) TimerEvent: {}
+[75.601937] (-) TimerEvent: {}
+[75.704077] (-) TimerEvent: {}
+[75.804551] (-) TimerEvent: {}
+[75.905175] (-) TimerEvent: {}
+[76.008093] (-) TimerEvent: {}
+[76.108723] (-) TimerEvent: {}
+[76.209342] (-) TimerEvent: {}
+[76.309828] (-) TimerEvent: {}
+[76.413084] (-) TimerEvent: {}
+[76.513725] (-) TimerEvent: {}
+[76.614247] (-) TimerEvent: {}
+[76.714774] (-) TimerEvent: {}
+[76.817099] (-) TimerEvent: {}
+[76.917591] (-) TimerEvent: {}
+[77.018100] (-) TimerEvent: {}
+[77.121105] (-) TimerEvent: {}
+[77.221660] (-) TimerEvent: {}
+[77.327090] (-) TimerEvent: {}
+[77.427578] (-) TimerEvent: {}
+[77.528267] (-) TimerEvent: {}
+[77.631489] (-) TimerEvent: {}
+[77.732111] (-) TimerEvent: {}
+[77.832809] (-) TimerEvent: {}
+[77.937233] (-) TimerEvent: {}
+[78.037882] (-) TimerEvent: {}
+[78.138545] (-) TimerEvent: {}
+[78.241314] (-) TimerEvent: {}
+[78.341736] (-) TimerEvent: {}
+[78.445233] (-) TimerEvent: {}
+[78.545710] (-) TimerEvent: {}
+[78.646337] (-) TimerEvent: {}
+[78.746821] (-) TimerEvent: {}
+[78.847445] (-) TimerEvent: {}
+[78.951452] (-) TimerEvent: {}
+[79.055117] (-) TimerEvent: {}
+[79.155753] (-) TimerEvent: {}
+[79.256207] (-) TimerEvent: {}
+[79.356679] (-) TimerEvent: {}
+[79.460293] (-) TimerEvent: {}
+[79.560760] (-) TimerEvent: {}
+[79.661213] (-) TimerEvent: {}
+[79.761689] (-) TimerEvent: {}
+[79.862177] (-) TimerEvent: {}
+[79.962662] (-) TimerEvent: {}
+[80.066113] (-) TimerEvent: {}
+[80.166641] (-) TimerEvent: {}
+[80.267283] (-) TimerEvent: {}
+[80.367904] (-) TimerEvent: {}
+[80.471372] (-) TimerEvent: {}
+[80.575611] (-) TimerEvent: {}
+[80.679517] (-) TimerEvent: {}
+[80.780099] (-) TimerEvent: {}
+[80.883285] (-) TimerEvent: {}
+[80.983917] (-) TimerEvent: {}
+[81.087434] (-) TimerEvent: {}
+[81.188056] (-) TimerEvent: {}
+[81.289917] (-) TimerEvent: {}
+[81.390349] (-) TimerEvent: {}
+[81.490789] (-) TimerEvent: {}
+[81.593853] (-) TimerEvent: {}
+[81.694477] (-) TimerEvent: {}
+[81.799449] (-) TimerEvent: {}
+[81.900097] (-) TimerEvent: {}
+[82.000730] (-) TimerEvent: {}
+[82.101380] (-) TimerEvent: {}
+[82.202158] (-) TimerEvent: {}
+[82.302679] (-) TimerEvent: {}
+[82.406243] (-) TimerEvent: {}
+[82.507123] (-) TimerEvent: {}
+[82.608030] (-) TimerEvent: {}
+[82.710115] (-) TimerEvent: {}
+[82.810589] (-) TimerEvent: {}
+[82.913598] (-) TimerEvent: {}
+[83.014072] (-) TimerEvent: {}
+[83.117172] (-) TimerEvent: {}
+[83.217651] (-) TimerEvent: {}
+[83.247349] (joy) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libjoy.so\x1b[0m\n'}
+[83.318778] (-) TimerEvent: {}
+[83.419295] (-) TimerEvent: {}
+[83.519804] (-) TimerEvent: {}
+[83.620276] (-) TimerEvent: {}
+[83.721389] (-) TimerEvent: {}
+[83.821955] (-) TimerEvent: {}
+[83.924100] (-) TimerEvent: {}
+[84.024739] (-) TimerEvent: {}
+[84.125341] (-) TimerEvent: {}
+[84.227104] (-) TimerEvent: {}
+[84.244784] (joy) StdoutLine: {'line': b'[ 70%] Built target joy\n'}
+[84.327242] (-) TimerEvent: {}
+[84.427704] (-) TimerEvent: {}
+[84.528225] (-) TimerEvent: {}
+[84.628653] (-) TimerEvent: {}
+[84.729093] (-) TimerEvent: {}
+[84.829468] (-) TimerEvent: {}
+[84.929825] (-) TimerEvent: {}
+[85.030227] (-) TimerEvent: {}
+[85.130649] (-) TimerEvent: {}
+[85.231061] (-) TimerEvent: {}
+[85.331746] (-) TimerEvent: {}
+[85.433361] (-) TimerEvent: {}
+[85.533914] (-) TimerEvent: {}
+[85.634383] (-) TimerEvent: {}
+[85.736171] (-) TimerEvent: {}
+[85.836904] (-) TimerEvent: {}
+[85.939750] (-) TimerEvent: {}
+[85.998863] (joy) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libgame_controller.so\x1b[0m\n'}
+[86.026815] (ldlidar_component) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libldlidar_component.so\x1b[0m\n'}
+[86.042085] (-) TimerEvent: {}
+[86.106482] (joy_linux) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joy_linux_node\x1b[0m\n'}
+[86.143173] (-) TimerEvent: {}
+[86.244136] (-) TimerEvent: {}
+[86.347758] (-) TimerEvent: {}
+[86.450658] (-) TimerEvent: {}
+[86.551590] (-) TimerEvent: {}
+[86.655350] (-) TimerEvent: {}
+[86.759767] (-) TimerEvent: {}
+[86.838352] (joy) StdoutLine: {'line': b'[ 80%] Built target game_controller\n'}
+[86.861743] (-) TimerEvent: {}
+[86.964212] (-) TimerEvent: {}
+[87.066072] (-) TimerEvent: {}
+[87.115144] (joy) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/joy_enumerate_devices.dir/src/joy_enumerate_devices.cpp.o\x1b[0m\n'}
+[87.133076] (joy_linux) StdoutLine: {'line': b'[100%] Built target joy_linux_node\n'}
+[87.166324] (-) TimerEvent: {}
+[87.267018] (-) TimerEvent: {}
+[87.346491] (ldlidar_component) StdoutLine: {'line': b'[100%] Built target ldlidar_component\n'}
+[87.372487] (-) TimerEvent: {}
+[87.402548] (joy_linux) JobEnded: {'identifier': 'joy_linux', 'rc': 'SIGINT'}
+[87.472626] (-) TimerEvent: {}
+[87.573021] (-) TimerEvent: {}
+[87.582071] (ldlidar_component) JobEnded: {'identifier': 'ldlidar_component', 'rc': 'SIGINT'}
+[87.673167] (-) TimerEvent: {}
+[87.773589] (-) TimerEvent: {}
+[87.874079] (-) TimerEvent: {}
+[87.974484] (-) TimerEvent: {}
+[88.074892] (-) TimerEvent: {}
+[88.175347] (-) TimerEvent: {}
+[88.272958] (joy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joy_enumerate_devices\x1b[0m\n'}
+[88.275442] (-) TimerEvent: {}
+[88.375800] (-) TimerEvent: {}
+[88.476217] (-) TimerEvent: {}
+[88.511332] (joy) StdoutLine: {'line': b'[100%] Built target joy_enumerate_devices\n'}
+[88.576342] (-) TimerEvent: {}
+[88.666275] (joy) JobEnded: {'identifier': 'joy', 'rc': 'SIGINT'}
+[88.680239] (-) TimerEvent: {}
+[88.720349] (ldlidar_node) JobSkipped: {'identifier': 'ldlidar_node'}
+[88.723804] (ldlidar) JobSkipped: {'identifier': 'ldlidar'}
+[88.727111] (-) EventReactorShutdown: {}

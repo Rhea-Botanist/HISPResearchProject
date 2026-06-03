@@ -1,0 +1,4 @@
+[0.031s] Invoking command in '/home/turbo/Documents/hisp_ws/build/joy_linux': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/joy_linux -- -j4 -l4
+[0.185s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o[0m
+[31.001s] [100%] [32m[1mLinking CXX executable joy_linux_node[0m
+[31.827s] [100%] Built target joy_linux_node

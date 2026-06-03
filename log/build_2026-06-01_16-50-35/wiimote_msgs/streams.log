@@ -1,0 +1,32 @@
+[0.044s] Invoking command in '/home/turbo/Documents/hisp_ws/build/wiimote_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/wiimote_msgs -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/wiimote_msgs
+[0.892s] -- The C compiler identification is GNU 13.3.0
+[1.424s] -- The CXX compiler identification is GNU 13.3.0
+[1.487s] -- Detecting C compiler ABI info
+[1.703s] -- Detecting C compiler ABI info - done
+[1.719s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.722s] -- Detecting C compile features
+[1.723s] -- Detecting C compile features - done
+[1.741s] -- Detecting CXX compiler ABI info
+[1.934s] -- Detecting CXX compiler ABI info - done
+[1.950s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.950s] -- Detecting CXX compile features
+[1.951s] -- Detecting CXX compile features - done
+[2.038s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[2.038s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.038s]   has asked CMake to find a package configuration file provided by
+[2.038s]   "ament_cmake", but CMake did not find one.
+[2.039s] 
+[2.039s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.039s]   any of the following names:
+[2.039s] 
+[2.039s]     ament_cmakeConfig.cmake
+[2.039s]     ament_cmake-config.cmake
+[2.039s] 
+[2.040s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.040s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.040s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.040s]   has been installed.
+[2.040s] 
+[2.040s] [0m
+[2.040s] -- Configuring incomplete, errors occurred!
+[2.046s] Invoked command in '/home/turbo/Documents/hisp_ws/build/wiimote_msgs' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/wiimote_msgs -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/wiimote_msgs

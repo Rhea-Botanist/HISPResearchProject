@@ -1,0 +1,72 @@
+--  * Release Mode
+-- * Found ROS2 jazzy
+-- * ROS2 jazzy is officially supported by this package.
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp_lifecycle: 28.1.18 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found nav2_util: 1.3.11 (/opt/ros/jazzy/share/nav2_util/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found diagnostic_msgs: 5.3.7 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+-- Found diagnostic_updater: 4.2.6 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/include;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/tools/include;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/component/include;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/core;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/dataprocess;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/filter;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/logger;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/networkcom;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/serialcom
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Added test 'clang_format' to check C / C++ code style
+-- Configuring done (2.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/turbo/Documents/hisp_ws/build/ldlidar_component
+[ 70%] Built target ldlidar
+[100%] Built target ldlidar_component
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/lib/libldlidar_component.so
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//defines.hpp
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//ldlidar_component.hpp
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//ldlidar_tools.hpp
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//visibility_control.hpp
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//ldlidar_datatype.h
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//ldlidar_driver.h
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//lipkg.h
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//tofbf.h
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//log_module.h
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//network_socket_interface_linux.h
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//serial_interface_linux.h
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/environment/library_path.sh
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/environment/library_path.dsv
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ament_index/resource_index/package_run_dependencies/ldlidar_component
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ament_index/resource_index/parent_prefix_path/ldlidar_component
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/environment/ament_prefix_path.sh
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/environment/ament_prefix_path.dsv
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/environment/path.sh
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/environment/path.dsv
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/local_setup.bash
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/local_setup.sh
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/local_setup.zsh
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/local_setup.dsv
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/package.dsv
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ament_index/resource_index/packages/ldlidar_component
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ament_index/resource_index/rclcpp_components/ldlidar_component
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/cmake/ldlidar_componentConfig.cmake
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/cmake/ldlidar_componentConfig-version.cmake
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/package.xml

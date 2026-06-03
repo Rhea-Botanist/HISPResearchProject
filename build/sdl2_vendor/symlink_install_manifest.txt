@@ -1,0 +1,17 @@
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/Modules/Findsdl2_custom.cmake
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/ament_index/resource_index/package_run_dependencies/sdl2_vendor
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/ament_index/resource_index/parent_prefix_path/sdl2_vendor
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.sh
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.dsv
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/path.sh
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/path.dsv
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.bash
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.sh
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.zsh
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.dsv
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.dsv
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/ament_index/resource_index/packages/sdl2_vendor
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendor-extras.cmake
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig.cmake
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig-version.cmake
+/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.xml

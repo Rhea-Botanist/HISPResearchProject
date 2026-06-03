@@ -1,0 +1,30 @@
+[0.074s] Invoking command in '/home/turbo/Documents/hisp_ws/build/sdl2_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/sdl2_vendor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/sdl2_vendor
+[0.121s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.700s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.149s] -- Configuring done (1.0s)
+[1.175s] -- Generating done (0.0s)
+[1.181s] -- Build files have been written to: /home/turbo/Documents/hisp_ws/build/sdl2_vendor
+[1.189s] Invoked command in '/home/turbo/Documents/hisp_ws/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/sdl2_vendor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/sdl2_vendor
+[1.190s] Invoking command in '/home/turbo/Documents/hisp_ws/build/sdl2_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/sdl2_vendor -- -j4 -l4
+[1.308s] Invoked command in '/home/turbo/Documents/hisp_ws/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/sdl2_vendor -- -j4 -l4
+[1.329s] Invoking command in '/home/turbo/Documents/hisp_ws/build/sdl2_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/sdl2_vendor
+[1.345s] -- Install configuration: "Release"
+[1.347s] -- Execute custom install script
+[1.348s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/Modules/Findsdl2_custom.cmake
+[1.348s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/ament_index/resource_index/package_run_dependencies/sdl2_vendor
+[1.349s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/ament_index/resource_index/parent_prefix_path/sdl2_vendor
+[1.350s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.sh
+[1.351s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.dsv
+[1.355s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/path.sh
+[1.355s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/environment/path.dsv
+[1.355s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.bash
+[1.355s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.sh
+[1.355s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.zsh
+[1.355s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.dsv
+[1.356s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.dsv
+[1.391s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/ament_index/resource_index/packages/sdl2_vendor
+[1.392s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendor-extras.cmake
+[1.394s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig.cmake
+[1.394s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig-version.cmake
+[1.395s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.xml
+[1.401s] Invoked command in '/home/turbo/Documents/hisp_ws/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/sdl2_vendor

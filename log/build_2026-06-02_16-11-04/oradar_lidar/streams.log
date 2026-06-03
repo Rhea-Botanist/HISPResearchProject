@@ -1,0 +1,84 @@
+[0.041s] Invoking command in '/home/turbo/Documents/hisp_ws/build/oradar_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/MS200_ros -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/oradar_lidar
+[0.107s] [0m=============================================================[0m
+[0.107s] [0m-- ROS Not Found, Ros Support is turned Off![0m
+[0.107s] [0m=============================================================[0m
+[0.828s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.841s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.857s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.875s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.961s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.962s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.058s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.141s] [0m=============================================================[0m
+[1.141s] [0m-- ROS2 Found. ROS2 Support is turned On![0m
+[1.141s] [0m=============================================================[0m
+[1.141s] [0mCMake Error: File /home/turbo/Documents/hisp_ws/src/MS200_ros/package_ros2.xml does not exist.[0m
+[1.142s] [31mCMake Error at CMakeLists.txt:36 (configure_file):
+[1.142s]   configure_file Problem configuring file
+[1.142s] 
+[1.142s] [0m
+[1.142s] [0mCMake Error: File /home/turbo/Documents/hisp_ws/src/MS200_ros/package_ros2.xml does not exist.[0m
+[1.142s] [31mCMake Error at CMakeLists.txt:38 (configure_file):
+[1.142s]   configure_file Problem configuring file
+[1.142s] 
+[1.142s] [0m
+[1.142s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.217s] [0mCMake Deprecation Warning at sdk/CMakeLists.txt:36 (cmake_policy):
+[1.217s]   The OLD behavior for policy CMP0053 will be removed from a future version
+[1.217s]   of CMake.
+[1.218s] 
+[1.218s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[1.218s]   policies are deprecated and that a policy should be set to OLD only under
+[1.218s]   specific short-term circumstances.  Projects should be ported to the NEW
+[1.218s]   behavior and not rely on setting a policy to OLD.
+[1.218s] 
+[1.218s] [0m
+[1.218s] [0mCMake Deprecation Warning at sdk/CMakeLists.txt:39 (cmake_policy):
+[1.218s]   The OLD behavior for policy CMP0037 will be removed from a future version
+[1.218s]   of CMake.
+[1.218s] 
+[1.218s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[1.219s]   policies are deprecated and that a policy should be set to OLD only under
+[1.219s]   specific short-term circumstances.  Projects should be ported to the NEW
+[1.219s]   behavior and not rely on setting a policy to OLD.
+[1.219s] 
+[1.219s] [0m
+[1.219s] [0mCMake Deprecation Warning at sdk/CMakeLists.txt:42 (cmake_policy):
+[1.219s]   The OLD behavior for policy CMP0043 will be removed from a future version
+[1.219s]   of CMake.
+[1.219s] 
+[1.219s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[1.219s]   policies are deprecated and that a policy should be set to OLD only under
+[1.219s]   specific short-term circumstances.  Projects should be ported to the NEW
+[1.220s]   behavior and not rely on setting a policy to OLD.
+[1.220s] 
+[1.220s] [0m
+[1.220s] -- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+[1.220s] [33mCMake Warning (dev) at sdk/CMakeLists.txt:54 (find_package):
+[1.220s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.220s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.220s]   the cmake_policy command to set the policy and suppress this warning.
+[1.220s] 
+[1.221s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.221s] [0m
+[1.253s] [33mCMake Warning (dev) at sdk/CMakeLists.txt:55 (FIND_PACKAGE):
+[1.253s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.254s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.254s]   the cmake_policy command to set the policy and suppress this warning.
+[1.254s] 
+[1.254s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.254s] [0m
+[1.273s] [0mCMake Deprecation Warning at sdk/cmake/install_package.cmake:101 (cmake_policy):
+[1.273s]   The OLD behavior for policy CMP0026 will be removed from a future version
+[1.273s]   of CMake.
+[1.273s] 
+[1.273s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[1.273s]   policies are deprecated and that a policy should be set to OLD only under
+[1.274s]   specific short-term circumstances.  Projects should be ported to the NEW
+[1.274s]   behavior and not rely on setting a policy to OLD.
+[1.274s] Call Stack (most recent call first):
+[1.274s]   sdk/CMakeLists.txt:105 (install_package)
+[1.274s] 
+[1.274s] [0m
+[1.448s] -- Configuring incomplete, errors occurred!
+[1.471s] Invoked command in '/home/turbo/Documents/hisp_ws/build/oradar_lidar' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/MS200_ros -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/oradar_lidar

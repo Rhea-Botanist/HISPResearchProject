@@ -1,0 +1,24 @@
+[0.022s] Invoking command in '/home/turbo/Documents/hisp_ws/build/joy': AMENT_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/joy -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/joy
+[0.075s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[8.350s] Traceback (most recent call last):
+[8.350s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[8.350s]     from ament_package.templates import get_environment_hook_template_path
+[8.350s] ModuleNotFoundError: No module named 'ament_package'
+[8.423s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[8.423s]   execute_process(/usr/bin/python3
+[8.423s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[8.423s]   /home/turbo/Documents/hisp_ws/build/joy/ament_cmake_package_templates/templates.cmake)
+[8.423s]   returned error code 1
+[8.423s] Call Stack (most recent call first):
+[8.423s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[8.424s]   /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:39 (find_package)
+[8.424s]   /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[8.424s]   /opt/ros/jazzy/share/ament_cmake_pytest/cmake/ament_cmake_pytest-extras.cmake:17 (find_package)
+[8.424s]   /opt/ros/jazzy/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig.cmake:41 (include)
+[8.424s]   /opt/ros/jazzy/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:19 (find_package)
+[8.424s]   /opt/ros/jazzy/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)
+[8.424s]   CMakeLists.txt:13 (find_package)
+[8.424s] 
+[8.424s] [0m
+[8.424s] -- Configuring incomplete, errors occurred!
+[8.429s] Invoked command in '/home/turbo/Documents/hisp_ws/build/joy' returned '1': AMENT_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/joy -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/joy

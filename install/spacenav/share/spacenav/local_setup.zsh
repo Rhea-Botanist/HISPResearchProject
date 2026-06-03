@@ -1,0 +1,1 @@
+/home/turbo/Documents/hisp_ws/build/spacenav/ament_cmake_environment_hooks/local_setup.zsh

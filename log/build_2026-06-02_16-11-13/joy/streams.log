@@ -1,0 +1,43 @@
+[0.081s] Invoking command in '/home/turbo/Documents/hisp_ws/build/joy': CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/joy -- -j4 -l4
+[0.225s] [ 20%] Built target game_controller
+[0.236s] [ 40%] Built target game_controller_node
+[0.239s] [ 60%] Built target joy
+[0.253s] [ 80%] Built target joy_node
+[0.283s] [100%] Built target joy_enumerate_devices
+[0.308s] Invoked command in '/home/turbo/Documents/hisp_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/joy -- -j4 -l4
+[0.311s] Invoking command in '/home/turbo/Documents/hisp_ws/build/joy': CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/joy
+[0.328s] -- Install configuration: "Release"
+[0.329s] -- Execute custom install script
+[0.340s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/lib/joy/joy_node
+[0.340s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/lib/joy/game_controller_node
+[0.340s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/lib/joy/joy_enumerate_devices
+[0.340s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/include/joy/joy/game_controller.hpp
+[0.341s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/include/joy/joy/joy.hpp
+[0.341s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/config/joy-params.yaml
+[0.341s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/launch/joy-composed-launch.py
+[0.341s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/launch/joy-launch.py
+[0.341s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+[0.341s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+[0.341s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/environment/ament_prefix_path.sh
+[0.341s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/environment/ament_prefix_path.dsv
+[0.341s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/environment/path.sh
+[0.341s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/environment/path.dsv
+[0.341s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/local_setup.bash
+[0.342s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/local_setup.sh
+[0.342s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/local_setup.zsh
+[0.342s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/local_setup.dsv
+[0.342s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/joy/share/joy/package.dsv
+[0.367s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/ament_index/resource_index/packages/joy
+[0.368s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/ament_index/resource_index/rclcpp_components/joy
+[0.368s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake
+[0.368s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.368s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/joyConfig.cmake
+[0.368s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/joyConfig-version.cmake
+[0.369s] -- Up-to-date symlink: /home/turbo/Documents/hisp_ws/install/joy/share/joy/package.xml
+[0.369s] -- Up-to-date: /home/turbo/Documents/hisp_ws/install/joy/lib/libjoy.so
+[0.372s] -- Up-to-date: /home/turbo/Documents/hisp_ws/install/joy/lib/libgame_controller.so
+[0.372s] -- Up-to-date: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_joyExport.cmake
+[0.373s] -- Up-to-date: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_joyExport-release.cmake
+[0.373s] -- Up-to-date: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_game_controllerExport.cmake
+[0.373s] -- Up-to-date: /home/turbo/Documents/hisp_ws/install/joy/share/joy/cmake/export_game_controllerExport-release.cmake
+[0.376s] Invoked command in '/home/turbo/Documents/hisp_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor:/home/turbo/Documents/hisp_ws/install/spacenav:/home/turbo/Documents/hisp_ws/install/joy:/home/turbo/Documents/hisp_ws/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/joy

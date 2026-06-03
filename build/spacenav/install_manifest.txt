@@ -1,0 +1,3 @@
+/home/turbo/Documents/hisp_ws/install/spacenav/lib/libspacenav.so
+/home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/export_spacenavExport.cmake
+/home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/export_spacenavExport-release.cmake

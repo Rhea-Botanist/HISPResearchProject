@@ -1,0 +1,30 @@
+[ 50%] Built target spacenav_node
+[100%] Built target spacenav
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/lib/spacenav/spacenav_node
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/include/spacenav/spacenav/spacenav.hpp
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav//launch/classic-launch.py
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav//launch/no_deadband-launch.py
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav//launch/static_deadband-launch.py
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/ament_index/resource_index/package_run_dependencies/spacenav
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/ament_index/resource_index/parent_prefix_path/spacenav
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/environment/ament_prefix_path.sh
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/environment/ament_prefix_path.dsv
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/environment/path.sh
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/environment/path.dsv
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/local_setup.bash
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/local_setup.sh
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/local_setup.zsh
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/local_setup.dsv
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/package.dsv
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/ament_index/resource_index/packages/spacenav
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/ament_index/resource_index/rclcpp_components/spacenav
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/spacenavConfig.cmake
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/spacenavConfig-version.cmake
+-- Symlinking: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/package.xml
+-- Installing: /home/turbo/Documents/hisp_ws/install/spacenav/lib/libspacenav.so
+-- Set non-toolchain portion of runtime path of "/home/turbo/Documents/hisp_ws/install/spacenav/lib/libspacenav.so" to ""
+-- Installing: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/export_spacenavExport.cmake
+-- Installing: /home/turbo/Documents/hisp_ws/install/spacenav/share/spacenav/cmake/export_spacenavExport-noconfig.cmake

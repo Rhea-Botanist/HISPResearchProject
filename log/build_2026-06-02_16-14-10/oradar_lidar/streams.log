@@ -1,0 +1,160 @@
+[0.065s] Invoking command in '/home/turbo/Documents/hisp_ws/build/oradar_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/MS200_ros -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/oradar_lidar
+[0.141s] [0m=============================================================[0m
+[0.141s] [0m-- ROS Not Found, Ros Support is turned Off![0m
+[0.141s] [0m=============================================================[0m
+[0.785s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.806s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.830s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.850s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.938s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.940s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.036s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.122s] [0m=============================================================[0m
+[1.123s] [0m-- ROS2 Found. ROS2 Support is turned On![0m
+[1.123s] [0m=============================================================[0m
+[1.123s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.200s] [0mCMake Deprecation Warning at sdk/CMakeLists.txt:36 (cmake_policy):
+[1.200s]   The OLD behavior for policy CMP0053 will be removed from a future version
+[1.200s]   of CMake.
+[1.200s] 
+[1.200s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[1.200s]   policies are deprecated and that a policy should be set to OLD only under
+[1.200s]   specific short-term circumstances.  Projects should be ported to the NEW
+[1.200s]   behavior and not rely on setting a policy to OLD.
+[1.200s] 
+[1.200s] [0m
+[1.201s] [0mCMake Deprecation Warning at sdk/CMakeLists.txt:39 (cmake_policy):
+[1.201s]   The OLD behavior for policy CMP0037 will be removed from a future version
+[1.201s]   of CMake.
+[1.201s] 
+[1.201s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[1.201s]   policies are deprecated and that a policy should be set to OLD only under
+[1.201s]   specific short-term circumstances.  Projects should be ported to the NEW
+[1.201s]   behavior and not rely on setting a policy to OLD.
+[1.201s] 
+[1.201s] [0m
+[1.201s] [0mCMake Deprecation Warning at sdk/CMakeLists.txt:42 (cmake_policy):
+[1.202s]   The OLD behavior for policy CMP0043 will be removed from a future version
+[1.202s]   of CMake.
+[1.202s] 
+[1.202s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[1.202s]   policies are deprecated and that a policy should be set to OLD only under
+[1.202s]   specific short-term circumstances.  Projects should be ported to the NEW
+[1.202s]   behavior and not rely on setting a policy to OLD.
+[1.202s] 
+[1.202s] [0m
+[1.203s] -- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+[1.203s] [33mCMake Warning (dev) at sdk/CMakeLists.txt:54 (find_package):
+[1.203s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.203s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.203s]   the cmake_policy command to set the policy and suppress this warning.
+[1.203s] 
+[1.203s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.203s] [0m
+[1.234s] [33mCMake Warning (dev) at sdk/CMakeLists.txt:55 (FIND_PACKAGE):
+[1.234s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.234s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.234s]   the cmake_policy command to set the policy and suppress this warning.
+[1.234s] 
+[1.234s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.234s] [0m
+[1.252s] [0mCMake Deprecation Warning at sdk/cmake/install_package.cmake:101 (cmake_policy):
+[1.252s]   The OLD behavior for policy CMP0026 will be removed from a future version
+[1.252s]   of CMake.
+[1.252s] 
+[1.252s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[1.252s]   policies are deprecated and that a policy should be set to OLD only under
+[1.252s]   specific short-term circumstances.  Projects should be ported to the NEW
+[1.252s]   behavior and not rely on setting a policy to OLD.
+[1.252s] Call Stack (most recent call first):
+[1.253s]   sdk/CMakeLists.txt:105 (install_package)
+[1.253s] 
+[1.253s] [0m
+[1.418s] -- Configuring done (1.3s)
+[1.506s] -- Generating done (0.1s)
+[1.521s] -- Build files have been written to: /home/turbo/Documents/hisp_ws/build/oradar_lidar
+[1.543s] Invoked command in '/home/turbo/Documents/hisp_ws/build/oradar_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/MS200_ros -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/oradar_lidar
+[1.545s] Invoking command in '/home/turbo/Documents/hisp_ws/build/oradar_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/oradar_lidar -- -j4 -l4
+[1.654s] [ 15%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/network/PassiveSocket.cpp.o[0m
+[1.654s] [ 15%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/network/ActiveSocket.cpp.o[0m
+[1.655s] [ 20%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/network/SimpleSocket.cpp.o[0m
+[1.655s] [ 20%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/base/timer.cpp.o[0m
+[2.969s] [ 25%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/serial/serial.cpp.o[0m
+[3.145s] [ 30%] [32mBuilding C object sdk/CMakeFiles/oradar_sdk.dir/core/serial/impl/unix/lock.c.o[0m
+[3.207s] [ 35%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o[0m
+[3.597s] [ 40%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o[0m
+[3.833s] [ 45%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/src/ord_lidar_c_api_driver.cpp.o[0m
+[4.779s] [ 50%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/src/ord_lidar_driver.cpp.o[0m
+[4.823s] [ 55%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/src/filters/FullScanFilter.cpp.o[0m
+[5.644s] [01m[K/home/turbo/Documents/hisp_ws/src/MS200_ros/sdk/src/ord_lidar_driver.cpp:[m[K In member function ‘[01m[Kbool ordlidar::OrdlidarDriver::[01;32m[Kuart_data_find_init_info[m[K(unsigned char*, int)[m[K’:
+[5.644s] [01m[K/home/turbo/Documents/hisp_ws/src/MS200_ros/sdk/src/ord_lidar_driver.cpp:203:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[5.644s]   203 |         [01;35m[K}[m[K
+[5.645s]       |         [01;35m[K^[m[K
+[6.197s] [ 60%] [32m[1mLinking CXX static library ../liboradar_sdk.a[0m
+[6.299s] [ 60%] Built target oradar_sdk
+[6.346s] [ 65%] [32mBuilding CXX object sdk/samples/CMakeFiles/blocking_test.dir/blocking_test.cpp.o[0m
+[6.348s] [ 70%] [32mBuilding CXX object CMakeFiles/oradar_scan.dir/src/oradar_scan_node.cpp.o[0m
+[6.363s] [ 75%] [32mBuilding C object sdk/samples/CMakeFiles/blocking_c_api_test.dir/blocking_c_api_test.c.o[0m
+[6.371s] [ 80%] [32mBuilding CXX object sdk/samples/CMakeFiles/non-blocking_test.dir/non-blocking_test.cpp.o[0m
+[6.574s] [ 85%] [32m[1mLinking CXX executable ../../blocking_c_api_test[0m
+[6.821s] [ 85%] Built target blocking_c_api_test
+[7.060s] [ 90%] [32m[1mLinking CXX executable ../../non-blocking_test[0m
+[7.077s] [ 95%] [32m[1mLinking CXX executable ../../blocking_test[0m
+[7.245s] [ 95%] Built target non-blocking_test
+[7.286s] [ 95%] Built target blocking_test
+[16.247s] [100%] [32m[1mLinking CXX executable oradar_scan[0m
+[16.755s] [100%] Built target oradar_scan
+[16.777s] Invoked command in '/home/turbo/Documents/hisp_ws/build/oradar_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/oradar_lidar -- -j4 -l4
+[16.779s] Invoking command in '/home/turbo/Documents/hisp_ws/build/oradar_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/oradar_lidar
+[16.796s] -- Install configuration: "RELEASE"
+[16.796s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/lib/oradar_lidar/oradar_scan
+[16.800s] -- Set non-toolchain portion of runtime path of "/home/turbo/Documents/hisp_ws/install/oradar_lidar/lib/oradar_lidar/oradar_scan" to ""
+[16.800s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar//launch
+[16.800s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan_view.launch
+[16.800s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan_view.launch.py
+[16.800s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan.launch
+[16.800s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan.launch.py
+[16.801s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar//rviz2
+[16.801s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar//rviz2/oradar_scan.rviz
+[16.801s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/ament_index/resource_index/package_run_dependencies/oradar_lidar
+[16.802s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/ament_index/resource_index/parent_prefix_path/oradar_lidar
+[16.802s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar/environment/ament_prefix_path.sh
+[16.802s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar/environment/ament_prefix_path.dsv
+[16.804s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar/environment/path.sh
+[16.806s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar/environment/path.dsv
+[16.807s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar/local_setup.bash
+[16.807s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar/local_setup.sh
+[16.807s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar/local_setup.zsh
+[16.808s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar/local_setup.dsv
+[16.808s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar/package.dsv
+[16.808s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/ament_index/resource_index/packages/oradar_lidar
+[16.808s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar/cmake/oradar_lidarConfig.cmake
+[16.808s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar/cmake/oradar_lidarConfig-version.cmake
+[16.809s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/share/oradar_lidar/package.xml
+[16.809s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/base/datatype.h
+[16.809s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/base/locker.h
+[16.810s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/base/thread.h
+[16.810s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/base/timer.h
+[16.810s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/base/typedef.h
+[16.810s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/base/utils.h
+[16.810s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/base/v8stdint.h
+[16.811s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/common/ChannelDevice.h
+[16.811s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/math/angles.h
+[16.811s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/network/ActiveSocket.h
+[16.811s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/network/PassiveSocket.h
+[16.811s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/network/SimpleSocket.h
+[16.811s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/network/StatTimer.h
+[16.811s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/serial/common.h
+[16.812s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/serial/serial.h
+[16.812s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/serial/impl/unix/lock.h
+[16.812s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/serial/impl/unix/unix.h
+[16.813s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/core/serial/impl/unix/unix_serial.h
+[16.813s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/src/ord_lidar_c_api_driver.h
+[16.813s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/src/ord_lidar_driver.h
+[16.813s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/src/ordlidar_protocol.h
+[16.813s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/include/src/filters/FullScanFilter.h
+[16.814s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/lib/liboradar_sdk.a
+[16.817s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/bin/blocking_test
+[16.817s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/bin/non-blocking_test
+[16.817s] -- Installing: /home/turbo/Documents/hisp_ws/install/oradar_lidar/bin/blocking_c_api_test
+[16.822s] Invoked command in '/home/turbo/Documents/hisp_ws/build/oradar_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/oradar_lidar

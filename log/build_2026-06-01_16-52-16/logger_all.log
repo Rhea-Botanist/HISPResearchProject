@@ -1,0 +1,260 @@
+[0.129s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.129s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8ba90d40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8bc45370>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8bc45370>>, mixin_verb=('build',))
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.190s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/turbo/Documents/hisp_ws'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/joy' with type 'ros.ament_cmake' and name 'joy'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/joy_linux' with type 'ros.ament_cmake' and name 'joy_linux'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/sdl2_vendor' with type 'ros.ament_cmake' and name 'sdl2_vendor'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/spacenav' with type 'ros.ament_cmake' and name 'spacenav'
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'joy_linux' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turbo/Documents/hisp_ws/build/joy_linux', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turbo/Documents/hisp_ws/install/joy_linux', 'merge_install': False, 'path': '/home/turbo/Documents/hisp_ws/src/joystick_drivers/joy_linux', 'symlink_install': False, 'test_result_base': None}
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'sdl2_vendor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turbo/Documents/hisp_ws/build/sdl2_vendor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turbo/Documents/hisp_ws/install/sdl2_vendor', 'merge_install': False, 'path': '/home/turbo/Documents/hisp_ws/src/joystick_drivers/sdl2_vendor', 'symlink_install': False, 'test_result_base': None}
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'spacenav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turbo/Documents/hisp_ws/build/spacenav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turbo/Documents/hisp_ws/install/spacenav', 'merge_install': False, 'path': '/home/turbo/Documents/hisp_ws/src/joystick_drivers/spacenav', 'symlink_install': False, 'test_result_base': None}
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] DEBUG:colcon.colcon_core.verb:Building package 'joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turbo/Documents/hisp_ws/build/joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turbo/Documents/hisp_ws/install/joy', 'merge_install': False, 'path': '/home/turbo/Documents/hisp_ws/src/joystick_drivers/joy', 'symlink_install': False, 'test_result_base': None}
+[0.273s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.275s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/turbo/Documents/hisp_ws/src/joystick_drivers/sdl2_vendor' with build type 'ament_cmake'
+[0.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/turbo/Documents/hisp_ws/src/joystick_drivers/sdl2_vendor'
+[0.279s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.284s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/turbo/Documents/hisp_ws/src/joystick_drivers/joy_linux' with build type 'ament_cmake'
+[0.284s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/turbo/Documents/hisp_ws/src/joystick_drivers/joy_linux'
+[0.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/turbo/Documents/hisp_ws/src/joystick_drivers/spacenav' with build type 'ament_cmake'
+[0.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/turbo/Documents/hisp_ws/src/joystick_drivers/spacenav'
+[0.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turbo/Documents/hisp_ws/build/sdl2_vendor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/sdl2_vendor -- -j4 -l4
+[0.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turbo/Documents/hisp_ws/build/joy_linux': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/joy_linux -- -j4 -l4
+[0.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turbo/Documents/hisp_ws/build/spacenav': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/spacenav -- -j4 -l4
+[0.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turbo/Documents/hisp_ws/build/sdl2_vendor' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/sdl2_vendor -- -j4 -l4
+[0.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turbo/Documents/hisp_ws/build/sdl2_vendor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/sdl2_vendor
+[0.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sdl2_vendor)
+[0.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turbo/Documents/hisp_ws/build/sdl2_vendor' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/sdl2_vendor
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/sdl2_vendor' for CMake module files
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/sdl2_vendor' for CMake config files
+[0.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdl2_vendor', 'cmake_prefix_path')
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.ps1'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.dsv'
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.sh'
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/bin'
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/lib/pkgconfig/sdl2_vendor.pc'
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/lib/python3.12/site-packages'
+[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/bin'
+[0.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.ps1'
+[0.537s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.dsv'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.sh'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.bash'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.zsh'
+[0.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/colcon-core/packages/sdl2_vendor)
+[0.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sdl2_vendor)
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/sdl2_vendor' for CMake module files
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/sdl2_vendor' for CMake config files
+[0.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdl2_vendor', 'cmake_prefix_path')
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.ps1'
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.dsv'
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.sh'
+[0.544s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/bin'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/lib/pkgconfig/sdl2_vendor.pc'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/lib/python3.12/site-packages'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/bin'
+[0.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.ps1'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.dsv'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.sh'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.bash'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/sdl2_vendor/package.zsh'
+[0.549s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turbo/Documents/hisp_ws/install/sdl2_vendor/share/colcon-core/packages/sdl2_vendor)
+[0.549s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/turbo/Documents/hisp_ws/src/joystick_drivers/joy' with build type 'ament_cmake'
+[0.549s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/turbo/Documents/hisp_ws/src/joystick_drivers/joy'
+[0.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turbo/Documents/hisp_ws/build/joy': AMENT_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/joy -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/joy
+[18.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turbo/Documents/hisp_ws/build/joy' returned '1': AMENT_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor CMAKE_PREFIX_PATH=/home/turbo/Documents/hisp_ws/install/sdl2_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/joy -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/joy
+[18.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[18.465s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/joy' for CMake module files
+[18.465s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/joy' for CMake config files
+[18.487s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/joy/bin'
+[18.487s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/joy/lib/pkgconfig/joy.pc'
+[18.488s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/joy/lib/python3.12/site-packages'
+[18.488s] Level 1:colcon.colcon_core.environment:checking '/home/turbo/Documents/hisp_ws/install/joy/bin'
+[18.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/turbo/Documents/hisp_ws/install/joy/share/joy/package.ps1'
+[18.503s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turbo/Documents/hisp_ws/install/joy/share/joy/package.dsv'
+[18.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/turbo/Documents/hisp_ws/install/joy/share/joy/package.sh'
+[18.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/turbo/Documents/hisp_ws/install/joy/share/joy/package.bash'
+[18.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/turbo/Documents/hisp_ws/install/joy/share/joy/package.zsh'
+[18.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turbo/Documents/hisp_ws/install/joy/share/colcon-core/packages/joy)
+[32.133s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[32.133s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[32.133s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[32.134s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[32.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[32.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[32.164s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[32.219s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[32.219s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turbo/Documents/hisp_ws/install/local_setup.ps1'
+[32.222s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/turbo/Documents/hisp_ws/install/_local_setup_util_ps1.py'
+[32.227s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turbo/Documents/hisp_ws/install/setup.ps1'
+[32.230s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turbo/Documents/hisp_ws/install/local_setup.sh'
+[32.231s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/turbo/Documents/hisp_ws/install/_local_setup_util_sh.py'
+[32.233s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turbo/Documents/hisp_ws/install/setup.sh'
+[32.235s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turbo/Documents/hisp_ws/install/local_setup.bash'
+[32.236s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turbo/Documents/hisp_ws/install/setup.bash'
+[32.238s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turbo/Documents/hisp_ws/install/local_setup.zsh'
+[32.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turbo/Documents/hisp_ws/install/setup.zsh'

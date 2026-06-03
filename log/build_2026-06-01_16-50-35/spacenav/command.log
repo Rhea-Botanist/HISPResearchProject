@@ -1,0 +1,1 @@
+Invoking command in '/home/turbo/Documents/hisp_ws/build/spacenav': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/joystick_drivers/spacenav -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/spacenav

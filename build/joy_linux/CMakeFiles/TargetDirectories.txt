@@ -1,0 +1,10 @@
+/home/turbo/Documents/hisp_ws/build/joy_linux/CMakeFiles/uninstall.dir
+/home/turbo/Documents/hisp_ws/build/joy_linux/CMakeFiles/joy_linux_uninstall.dir
+/home/turbo/Documents/hisp_ws/build/joy_linux/CMakeFiles/joy_linux_node.dir
+/home/turbo/Documents/hisp_ws/build/joy_linux/CMakeFiles/test.dir
+/home/turbo/Documents/hisp_ws/build/joy_linux/CMakeFiles/edit_cache.dir
+/home/turbo/Documents/hisp_ws/build/joy_linux/CMakeFiles/rebuild_cache.dir
+/home/turbo/Documents/hisp_ws/build/joy_linux/CMakeFiles/list_install_components.dir
+/home/turbo/Documents/hisp_ws/build/joy_linux/CMakeFiles/install.dir
+/home/turbo/Documents/hisp_ws/build/joy_linux/CMakeFiles/install/local.dir
+/home/turbo/Documents/hisp_ws/build/joy_linux/CMakeFiles/install/strip.dir

@@ -1,0 +1,78 @@
+[0.050s] Invoking command in '/home/turbo/Documents/hisp_ws/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/ldlidar_component
+[0.140s] --  * Release Mode
+[0.140s] -- * Found ROS2 jazzy
+[0.141s] -- * ROS2 jazzy is officially supported by this package.
+[0.148s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.724s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.789s] -- Found rclcpp_lifecycle: 28.1.18 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.876s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.901s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.943s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.981s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.201s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.207s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.417s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.629s] -- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.685s] -- Found nav2_util: 1.3.11 (/opt/ros/jazzy/share/nav2_util/cmake)
+[2.371s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.375s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.496s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.553s] -- Found diagnostic_msgs: 5.3.7 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+[2.579s] -- Found diagnostic_updater: 4.2.6 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+[2.607s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.859s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.866s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.870s] -- Configured cppcheck include dirs: /home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/include;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/tools/include;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/component/include;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/core;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/dataprocess;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/filter;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/logger;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/networkcom;/home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component/ldlidar_stl_sdk/ldlidar_driver/include/serialcom
+[2.870s] -- Configured cppcheck exclude dirs and/or files: 
+[2.875s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.875s] -- Configured cpplint exclude dirs and/or files: 
+[2.878s] -- Added test 'lint_cmake' to check CMake code style
+[2.884s] -- Added test 'uncrustify' to check C / C++ code style
+[2.884s] -- Configured uncrustify additional arguments: 
+[2.886s] -- Added test 'xmllint' to check XML markup files
+[2.892s] -- Added test 'clang_format' to check C / C++ code style
+[2.917s] -- Configuring done (2.8s)
+[3.001s] -- Generating done (0.1s)
+[3.024s] -- Build files have been written to: /home/turbo/Documents/hisp_ws/build/ldlidar_component
+[3.053s] Invoked command in '/home/turbo/Documents/hisp_ws/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/turbo/Documents/hisp_ws/src/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_INSTALL_PREFIX=/home/turbo/Documents/hisp_ws/install/ldlidar_component
+[3.055s] Invoking command in '/home/turbo/Documents/hisp_ws/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/ldlidar_component -- -j4 -l4
+[3.191s] [ 70%] Built target ldlidar
+[3.273s] [100%] Built target ldlidar_component
+[3.302s] Invoked command in '/home/turbo/Documents/hisp_ws/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/turbo/Documents/hisp_ws/build/ldlidar_component -- -j4 -l4
+[3.306s] Invoking command in '/home/turbo/Documents/hisp_ws/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/ldlidar_component
+[3.324s] -- Install configuration: "Release"
+[3.329s] -- Execute custom install script
+[3.332s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/lib/libldlidar_component.so
+[3.355s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//defines.hpp
+[3.380s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//ldlidar_component.hpp
+[3.404s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//ldlidar_tools.hpp
+[3.438s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//visibility_control.hpp
+[3.469s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//ldlidar_datatype.h
+[3.495s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//ldlidar_driver.h
+[3.514s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//lipkg.h
+[3.545s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//tofbf.h
+[3.568s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//log_module.h
+[3.585s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//network_socket_interface_linux.h
+[3.606s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/include/ldlidar_component//serial_interface_linux.h
+[3.626s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/environment/library_path.sh
+[3.651s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/environment/library_path.dsv
+[3.674s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ament_index/resource_index/package_run_dependencies/ldlidar_component
+[3.692s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ament_index/resource_index/parent_prefix_path/ldlidar_component
+[3.712s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/environment/ament_prefix_path.sh
+[3.734s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/environment/ament_prefix_path.dsv
+[3.756s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/environment/path.sh
+[3.776s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/environment/path.dsv
+[3.797s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/local_setup.bash
+[3.817s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/local_setup.sh
+[3.844s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/local_setup.zsh
+[3.866s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/local_setup.dsv
+[3.887s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/package.dsv
+[3.908s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ament_index/resource_index/packages/ldlidar_component
+[3.928s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ament_index/resource_index/rclcpp_components/ldlidar_component
+[3.963s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.981s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_libraries-extras.cmake
+[3.999s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.017s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/cmake/ldlidar_componentConfig.cmake
+[4.042s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/cmake/ldlidar_componentConfig-version.cmake
+[4.061s] -- Symlinking: /home/turbo/Documents/hisp_ws/install/ldlidar_component/share/ldlidar_component/package.xml
+[4.082s] Invoked command in '/home/turbo/Documents/hisp_ws/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/turbo/Documents/hisp_ws/build/ldlidar_component
